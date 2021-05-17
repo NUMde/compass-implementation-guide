@@ -11,6 +11,14 @@ This is the implementation guide for the FHIR Questionnaires used by the referen
 
 For more information on how the IBM reference app handles the Questionnaire resource, see the [frontend documentation of the reference app](https://github.com/NUMde/compass-numapp-frontend/tree/main/docs/questionnaireRendering).
 
+## Supported extensions
+* http://hl7.org/fhir/R4/extension-questionnaire-itemcontrol.html ("slider" only)
+* http://hl7.org/fhir/StructureDefinition/questionnaire-lowRangeLabel
+* http://hl7.org/fhir/StructureDefinition/questionnaire-highRangeLabel
+* http://hl7.org/fhir/StructureDefinition/questionnaire-sliderStepValue
+* http://hl7.org/fhir/StructureDefinition/minValue
+* http://hl7.org/fhir/StructureDefinition/maxValue
+
 ## Questionnaire.item-IDs 
 * `linkId` must be of format "1.2.3" and determine order in Questionnaire. It should be assigned automatically.
 * The Extension `https://num-compass.science/fhir/StructureDefinition/CompassInterversionId` can be used as identifier across different versions
