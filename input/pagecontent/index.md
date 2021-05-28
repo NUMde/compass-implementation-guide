@@ -1,5 +1,5 @@
 # NUMCompassIG
-This is the implementation guide for the FHIR Questionnaires used by the reference app framework developed in [NUM Compass](https://num-compass.science/de/). It is based on the as-is state and supported features of the [native app](https://github.com/NUMde/compass-numapp-frontend) (developed by IBM) with additional documentation of the GECCO resource mapping extensions.
+This is the implementation guide for the FHIR Questionnaires used by the reference app framework developed in [NUM Compass](https://num-compass.science/de/). It is based on the as-is state and supported features of the [native app](https://github.com/NUMde/compass-numapp-frontend) (developed by IBM) with additional documentation of the [GECCO](https://simplifier.net/ForschungsnetzCovid-19/) resource mapping extensions.
 
 ## Important constraints on the FHIR Questionnaire 
 * Only JSON format is supported.
