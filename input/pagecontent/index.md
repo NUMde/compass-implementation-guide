@@ -4,7 +4,7 @@ This is the implementation guide for the FHIR Questionnaires used by the referen
 ## Important constraints on the FHIR Questionnaire 
 * Only JSON format is supported.
 * The `Questionnaire.item` properties: readOnly, repeats, answerValueSet, prefix are not supported.
-* The `Questionnaire.item.type` quantity is not supported. //TODO: Add constraint to the profile or add to the IBM reference app?
+* The `Questionnaire.item.type` quantity, dateTime, time, reference, attachment is not supported. //TODO: Add constraint to the profile or add to the IBM reference app?
 * The first level of items must be of type "group"
 * `Questionnaire.item.answerOption.value` must be either string or integer.
 * `Questionnaire.item.enableWhen` is only permitted in combination with the equals-operator.
