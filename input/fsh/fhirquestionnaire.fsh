@@ -5,8 +5,9 @@ Title:    "Compass Reference App Framwork Questionnaire"
 Description: "A questionnaire, that is compatible with the native IBM App as well as the Data4Life WebApp and the Healex editor"
 * item.linkId obeys compass-linkid-1 
 * item obeys compass-linkid-2
+* item obeys compass-mulitple-choice
 * item.readOnly 0..0
-* item.repeats 0..0
+// * item.repeats 0..0
 * item.answerValueSet 0..0
 * item.prefix 0..0
 * item.enableWhen MS 
@@ -28,6 +29,11 @@ Severity:   #error
 Invariant:  compass-linkid-2
 Description: "Child items must start with parent's linkId"
 Expression: "$this.item.linkId.select(startsWith(%context.linkId))" //TODO: Test this expression
+Severity:   #error
+
+Invariant:  compass-mulitple-choice
+Description: "repeats is not allowed for any item.type but choice"
+Expression: "type = 'choice' or repeats.empty()" 
 Severity:   #error
 
 Extension: CompassGeccoItem
