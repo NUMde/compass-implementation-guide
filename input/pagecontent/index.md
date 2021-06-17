@@ -3,7 +3,7 @@ This is the implementation guide for the FHIR Questionnaires used by the referen
 
 ## Important constraints on the FHIR Questionnaire 
 * Only JSON format is supported.
-* The `Questionnaire.item` properties: readOnly, answerValueSet, prefix are not supported.
+* The `Questionnaire.item` properties: `readOnly`, `answerValueSet` and `prefix` are not supported.
 * `Questionnaire.item.repeats` is not supported for any `Questionnaire.item.type` other than `choice`. In case of `type = 'choice'` and `repeats = true`, a multiple choice list should be rendered.
 * The `Questionnaire.item.type` quantity, dateTime, time, reference, attachment, openChoice is not supported. //TODO: Add constraint to the profile
 * The first level of items must be of type "group"
@@ -21,9 +21,16 @@ For more information on how the IBM reference app handles the Questionnaire reso
 * http://hl7.org/fhir/StructureDefinition/maxValue
 
 ## Questionnaire.item-IDs 
-* `linkId` must be of format "1.2.3" and determine order in Questionnaire. It should be assigned automatically.
-* The Extension `https://num-compass.science/fhir/StructureDefinition/CompassInterversionId` can be used as identifier across different versions
+* Because of the architecture of the IBM app, `linkId` must be of format "1.2.3" and determine order in Questionnaire. The parent's linkId must be a prefix of the child's linkId. It should be assigned automatically by the questionnaire editor.
+* Because we can not choose the linkId freely, the extension `https://num-compass.science/fhir/StructureDefinition/CompassInterversionId` can be used to identify items across different versions.
 
-In case of GECCO-Elements:
+In case of GECCO-Elements, there should some additional IDs be present:
 * The extension `https://num-compass.science/fhir/StructureDefinition/CompassGeccoItem` identifies the item in the logical reference model.
 * The `item.definition` element contains the url of the mapped profile.
+
+
+## Questionnaire-IDs and Versioning
+Besides the technical identifiers, which are stored in `Questionnaire.id` and `Questionnaire.identifier`, there is another "world-wide unique" identifier per Questionnaire, called `Questionnaire.url`. Often, the metadata (Questionnaire) is changed during the data capturing process. Therefore, FHIR provides the `Questionnaire.version` field to version metadata. Please note that this version is different from `Questionnaire.meta.versionId`, which corresponds to the FHIR repositories internal versioning.
+
+The QuestionnaireResponse references its corresponding Questionnaire by `QuestionnaireResponse.questionnaire`, which is a canonical url. Its value MUST correspond to `Questionnaire.url`. The FHIR standard allows appending the version to a canonical url by seperating it with a pipe (`|`) character. If you follow this implementation guide, `QuestionnaireResponse.questionnaire` should always contain also `Questionnaire.version`.
+
