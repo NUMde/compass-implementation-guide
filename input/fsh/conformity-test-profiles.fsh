@@ -51,19 +51,6 @@ Id: NumConformanceDevice
 * owner only Reference(NumConformanceOrganization)
 * owner.reference 1..
 
-Profile: NumConformanceDocumentReference
-Parent: DocumentReference
-Id: NumConformanceDocumentReference
-* ^url = "https://num-compass.science/fhir/StructureDefinition/NumConformanceDocumentReference"
-* ^status = #draft
-* status = #current (exactly)
-* date 1..
-* description 1..
-* content ..1
-* content.attachment.contentType 1..
-* content.attachment.contentType = #application/pdf (exactly)
-* content.attachment.data 1..
-
 Profile: NumConformanceOrganization
 Parent: Organization
 Id: NumConformanceOrganization
