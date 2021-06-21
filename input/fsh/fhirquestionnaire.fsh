@@ -40,23 +40,36 @@ Extension: CompassGeccoItem
 Id: CompassGeccoItem
 Title: "Gecco-Item"
 Description: "Mapping to an item in the Compass-LogicalModel"
+* ^context[0].type = #element
+* ^context[0].expression = "Questionnaire.item"
+* ^context[1].type = #element
+* ^context[1].expression = "QuestionnaireResponse.item"
 * value[x] only Coding
 
 
 Extension: CompassInterversionId
-Id:  CompassInterversionId
+Id: CompassInterversionId
 Title: "Interversion-Identifier"
 Description: "Manually assigned itentifier that will not change with newer iterations of the questionnaire."
+* ^context[0].type = #element
+* ^context[0].expression = "Questionnaire.item"
+* ^context[1].type = #element
+* ^context[1].expression = "QuestionnaireResponse.item"
 * value[x] only string
 
 Extension: LowRangeLabel
-Id:  LowRangeLabel
+Id: LowRangeLabel
 Title: "LowRangeLabel"
 Description: "For slider-based controls, label for the lower end of that slider."
+* ^context[0].type = #element
+* ^context[0].expression = "Questionnaire.item"
 * value[x] only string
 
+
 Extension: HighRangeLabel
-Id:  HighRangeLabel
+Id: HighRangeLabel
 Title: "HighRangeLabel"
 Description: "For slider-based controls, label for the higher end of that slider."
+* ^context[0].type = #element
+* ^context[0].expression = "Questionnaire.item"
 * value[x] only string
