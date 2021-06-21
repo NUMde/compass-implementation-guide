@@ -14,8 +14,8 @@ For more information on how the IBM reference app handles the Questionnaire reso
 
 ## Supported extensions
 * http://hl7.org/fhir/R4/extension-questionnaire-itemcontrol.html ("slider" only)
-* http://hl7.org/fhir/StructureDefinition/questionnaire-lowRangeLabel
-* http://hl7.org/fhir/StructureDefinition/questionnaire-highRangeLabel
+* https://num-compass.science/fhir/StructureDefinition/LowRangeLabel
+* https://num-compass.science/fhir/StructureDefinition/HighRangeLabel
 * http://hl7.org/fhir/StructureDefinition/questionnaire-sliderStepValue
 * http://hl7.org/fhir/StructureDefinition/minValue
 * http://hl7.org/fhir/StructureDefinition/maxValue

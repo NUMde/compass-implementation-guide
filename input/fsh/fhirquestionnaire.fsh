@@ -49,4 +49,14 @@ Title: "Interversion-Identifier"
 Description: "Manually assigned itentifier that will not change with newer iterations of the questionnaire."
 * value[x] only string
 
+Extension: LowRangeLabel
+Id:  LowRangeLabel
+Title: "LowRangeLabel"
+Description: "For slider-based controls, label for the lower end of that slider."
+* value[x] only string
 
+Extension: HighRangeLabel
+Id:  HighRangeLabel
+Title: "HighRangeLabel"
+Description: "For slider-based controls, label for the higher end of that slider."
+* value[x] only string
