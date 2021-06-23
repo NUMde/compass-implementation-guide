@@ -6,6 +6,7 @@ This is the implementation guide for the FHIR Questionnaires used by the referen
 ### Important constraints on the FHIR Questionnaire 
 
 * Only JSON format is supported.
+* `Questionnaire.url` and `Questionnaire.version` may not be empty. 
 * The `Questionnaire.item` properties: `readOnly`, `answerValueSet` and `prefix` are not supported.
 * `Questionnaire.item.repeats` is not supported for any `Questionnaire.item.type` other than `choice`. In case of `type = 'choice'` and `repeats = true`, a multiple choice list should be rendered.
 * The `Questionnaire.item.type` quantity, dateTime, time, reference, attachment, openChoice is not supported. //TODO: Add constraint to the profile
@@ -33,9 +34,11 @@ In case of GECCO-Elements, there should some additional IDs be present:
 
 
 ### Questionnaire-IDs and Versioning
-Besides the technical identifiers, which are stored in `Questionnaire.id` and `Questionnaire.identifier`, there is another "world-wide unique" identifier per Questionnaire, called `Questionnaire.url`. Often, the metadata (Questionnaire) is changed during the data capturing process. Therefore, FHIR provides the `Questionnaire.version` field to version metadata. Please note that this version is different from `Questionnaire.meta.versionId`, which corresponds to the FHIR repositories internal versioning.
+Besides the technical identifiers, which are stored in `Questionnaire.id` and `Questionnaire.identifier`, there is another "world-wide unique" identifier per Questionnaire, called `Questionnaire.url`. Often, the structure of the captured data (as described in the Questionnaire) is changed during the data capturing process. Therefore, FHIR provides the `Questionnaire.version` field to version the Questionnaire. Please note that this version is different from `Questionnaire.meta.versionId`, which corresponds to the FHIR repositories internal versioning.
 
-The QuestionnaireResponse references its corresponding Questionnaire by `QuestionnaireResponse.questionnaire`, which is a canonical url. Its value MUST correspond to `Questionnaire.url`. The FHIR standard allows appending the version to a canonical url by seperating it with a pipe (`|`) character. If you follow this implementation guide, `QuestionnaireResponse.questionnaire` should always contain also `Questionnaire.version`.
+The QuestionnaireResponse references its corresponding Questionnaire by `QuestionnaireResponse.questionnaire`, which is a [canonical url](https://www.hl7.org/fhir/r4/references.html#canonical). The FHIR standard allows appending the version to a canonical url by seperating it with a pipe (`|`) character. 
+
+Even though the FHIR specification allows falling back to a local identifier, in this implementation guide, its `QuestionnaireResponse.questionnaire` MUST correspond to `Questionnaire.url`. Implementers following this implementation guide MUST put the `Questionnaire.url` with the appended `Questionnaire.version`.
 
 ## Conformance testing
 
