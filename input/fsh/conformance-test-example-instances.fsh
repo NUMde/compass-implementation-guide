@@ -66,6 +66,7 @@ FIRST EXAMPLE OF A BUNDLE/FHIR DOCUMENT INPUT FOR CONFORMATION TEST (WITHOUT QUE
 Instance: conf-test-input-bundle
 InstanceOf: Bundle
 Usage: #example
+* meta.profile = "https://num-compass.science/fhir/StructureDefinition/NumConformanceTestBundle"
 * identifier.system = "urn:ietf:rfc:3986"
 * identifier.value = "urn:uuid:1f3c5f82-b9fd-11eb-be06-3bc44e420d35"
 * timestamp = "2021-05-11T14:30:00+01:00"
@@ -74,7 +75,7 @@ Usage: #example
 * entry[=].resource = Inline-Instance-for-conf-test-input-bundle-1
 * entry[+].fullUrl = "urn:uuid:c64139e7-f02d-409c-bf34-75e8bf23bc80"
 * entry[=].resource = Inline-Instance-for-conf-test-input-bundle-2
-* entry[+].fullUrl = "urn:uuid:1c616b24-3895-48c4-9ca02-9a64110351ef"
+* entry[+].fullUrl = "urn:uuid:1c616b24-3895-48c4-9a02-9a64110351ef"
 * entry[=].resource = Inline-Instance-for-conf-test-input-bundle-3
 * entry[+].fullUrl = "urn:uuid:b1128693-372d-469b-8288-04cf091e7553"
 * entry[=].resource = Inline-Instance-for-conf-test-input-bundle-4
@@ -87,7 +88,6 @@ Usage: #example
 Instance: Inline-Instance-for-conf-test-input-bundle-1
 InstanceOf: Composition
 Usage: #inline
-* meta.profile = "https://num-compass.science/fhir/StructureDefinition/NumConformanceTestComposition"
 * status = #final
 * type = $loinc#68608-9 "Summary note"
 * date = "2017-12-11T14:30:00+01:00"
@@ -109,7 +109,6 @@ Usage: #inline
 Instance: Inline-Instance-for-conf-test-input-bundle-2
 InstanceOf: Device
 Usage: #inline
-* meta.profile = "https://num-compass.science/fhir/StructureDefinition/NumConformanceDevice"
 * deviceName.name = "Example COVID-19 app"
 * deviceName.type = #manufacturer-name
 * type = $sct#706689003 "Application program software"
@@ -120,7 +119,6 @@ Usage: #inline
 Instance: Inline-Instance-for-conf-test-input-bundle-3
 InstanceOf: Organization
 Usage: #inline
-* meta.profile = "https://num-compass.science/fhir/StructureDefinition/NumConformanceOrganization"
 * name = "Klinik für Infektiologie - Universitätsklinikum Beispielstadt"
 * telecom.system = #email
 * telecom.value = "uk-beispiel@example.com"
@@ -186,6 +184,7 @@ SECOND EXAMPLE OF A BUNDLE/FHIR DOCUMENT INPUT FOR CONFORMATION TEST (WITH A QUE
 Instance: conf-test-input-bundle-quest
 InstanceOf: Bundle
 Usage: #example
+* meta.profile = "https://num-compass.science/fhir/StructureDefinition/NumConformanceTestBundle"
 * identifier.system = "urn:ietf:rfc:3986"
 * identifier.value = "urn:uuid:1f3c5f82-b9fd-11eb-be06-3bc44e420d35"
 * timestamp = "2021-05-11T14:30:00+01:00"
@@ -209,7 +208,6 @@ Usage: #example
 Instance: Inline-Instance-for-conf-test-input-bundle-quest-1
 InstanceOf: Composition
 Usage: #inline
-* meta.profile = "https://num-compass.science/fhir/StructureDefinition/NumConformanceTestComposition"
 * status = #final
 * type = $loinc#68608-9 "Summary note"
 * date = "2017-12-11T14:30:00+01:00"
@@ -234,7 +232,6 @@ Usage: #inline
 Instance: Inline-Instance-for-conf-test-input-bundle-quest-2
 InstanceOf: Device
 Usage: #inline
-* meta.profile = "https://num-compass.science/fhir/StructureDefinition/NumConformanceDevice"
 * deviceName.name = "Example COVID-19 app"
 * deviceName.type = #manufacturer-name
 * type = $sct#706689003 "Application program software"
@@ -245,7 +242,6 @@ Usage: #inline
 Instance: Inline-Instance-for-conf-test-input-bundle-quest-3
 InstanceOf: Organization
 Usage: #inline
-* meta.profile = "https://num-compass.science/fhir/StructureDefinition/NumConformanceOrganization"
 * name = "Klinik für Infektiologie - Universitätsklinikum Beispielstadt"
 * telecom.system = #email
 * telecom.value = "uk-beispiel@example.com"

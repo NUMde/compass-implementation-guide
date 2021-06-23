@@ -1,3 +1,21 @@
+Profile: NumConformanceTestBundle
+Parent: Bundle
+Id: NumConformanceTestBundle
+* ^url = "https://num-compass.science/fhir/StructureDefinition/NumConformanceTestBundle"
+* ^status = #draft
+* type = #document (exactly)
+* entry 1..
+* entry ^slicing.discriminator.type = #type
+* entry ^slicing.discriminator.path = "resource"
+* entry ^slicing.ordered = false
+* entry ^slicing.rules = #open
+* entry ^short = "Slices in Bundle entries"
+* entry contains
+    composition 1..1
+* entry[composition] ^short = "FHIR document composition"
+* entry[composition].resource 1..1
+* entry[composition].resource only NumConformanceTestComposition
+
 Profile: NumConformanceTestComposition
 Parent: Composition
 Id: NumConformanceTestComposition
@@ -9,8 +27,8 @@ Id: NumConformanceTestComposition
 * section ^slicing.discriminator.type = #pattern
 * section ^slicing.discriminator.path = "code"
 * section ^slicing.ordered = false
-* section ^slicing.rules = #open
-* section ^short = "Section of the test data set"
+* section ^slicing.rules = #closed
+* section ^short = "Sections of the conformity test bundle"
 * section contains
     software 1..1 and
     publishingOrg 1..1 and
