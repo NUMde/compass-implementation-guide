@@ -3,6 +3,8 @@ Parent:   Questionnaire
 Id:       compass-questionnaire
 Title:    "Compass Reference App Framwork Questionnaire"
 Description: "A questionnaire, that is compatible with the native IBM App as well as the Data4Life WebApp and the Healex editor"
+* url 1..1
+* version 1..1
 * item.linkId obeys compass-linkid-1 
 * item obeys compass-linkid-2
 * item obeys compass-mulitple-choice
