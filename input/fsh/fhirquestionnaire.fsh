@@ -17,6 +17,11 @@ Description: "A questionnaire, that is compatible with the native IBM App as wel
 * item.enableWhen.operator = #=
 * item.answerOption.value[x] only string or integer
 * item.definition MS 
+* item.extension contains
+    CompassGeccoItem named geccoItem 0..1 MS and 
+    CompassInterversionId named interversionId 0..1 MS and
+    LowRangeLabel named lowLabel 0..1 MS and
+    HighRangeLabel named highLabel 0..1 MS
 
 // TODO: Must-Support Slider
 // TODO: Must-Support andere elemente
