@@ -80,7 +80,6 @@ Description: "For slider-based controls, label for the lower end of that slider.
 * ^context[0].expression = "Questionnaire.item"
 * ^context[1].type = #element
 * ^context[1].expression = "Questionnaire.item.item"
-* ^context[2].type = #element
 * value[x] only string
 
 
@@ -92,5 +91,4 @@ Description: "For slider-based controls, label for the higher end of that slider
 * ^context[0].expression = "Questionnaire.item"
 * ^context[1].type = #element
 * ^context[1].expression = "Questionnaire.item.item"
-* ^context[2].type = #element
 * value[x] only string
