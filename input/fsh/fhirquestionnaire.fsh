@@ -17,6 +17,11 @@ Description: "A questionnaire, that is compatible with the native IBM App as wel
 * item.enableWhen.operator = #=
 * item.answerOption.value[x] only string or integer
 * item.definition MS 
+* item.extension contains
+    CompassGeccoItem named geccoItem 0..1 MS and 
+    CompassInterversionId named interversionId 0..1 MS and
+    LowRangeLabel named lowLabel 0..1 MS and
+    HighRangeLabel named highLabel 0..1 MS
 
 // TODO: Must-Support Slider
 // TODO: Must-Support andere elemente
@@ -45,7 +50,11 @@ Description: "Mapping to an item in the Compass-LogicalModel"
 * ^context[0].type = #element
 * ^context[0].expression = "Questionnaire.item"
 * ^context[1].type = #element
-* ^context[1].expression = "QuestionnaireResponse.item"
+* ^context[1].expression = "Questionnaire.item.item"
+* ^context[2].type = #element
+* ^context[2].expression = "QuestionnaireResponse.item"
+* ^context[3].type = #element
+* ^context[3].expression = "QuestionnaireResponse.item.item"
 * value[x] only Coding
 
 
@@ -56,7 +65,11 @@ Description: "Manually assigned itentifier that will not change with newer itera
 * ^context[0].type = #element
 * ^context[0].expression = "Questionnaire.item"
 * ^context[1].type = #element
-* ^context[1].expression = "QuestionnaireResponse.item"
+* ^context[1].expression = "Questionnaire.item.item"
+* ^context[2].type = #element
+* ^context[2].expression = "QuestionnaireResponse.item"
+* ^context[3].type = #element
+* ^context[3].expression = "QuestionnaireResponse.item.item"
 * value[x] only string
 
 Extension: LowRangeLabel
@@ -65,6 +78,8 @@ Title: "LowRangeLabel"
 Description: "For slider-based controls, label for the lower end of that slider."
 * ^context[0].type = #element
 * ^context[0].expression = "Questionnaire.item"
+* ^context[1].type = #element
+* ^context[1].expression = "Questionnaire.item.item"
 * value[x] only string
 
 
@@ -74,4 +89,6 @@ Title: "HighRangeLabel"
 Description: "For slider-based controls, label for the higher end of that slider."
 * ^context[0].type = #element
 * ^context[0].expression = "Questionnaire.item"
+* ^context[1].type = #element
+* ^context[1].expression = "Questionnaire.item.item"
 * value[x] only string
