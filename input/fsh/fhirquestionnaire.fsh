@@ -16,8 +16,8 @@ Description: "A questionnaire, that is compatible with the native IBM App as wel
 * item.enableBehavior MS 
 * item.enableWhen.operator = #=
 * item.answerOption.value[x] only string or integer
-* item.definition MS 
 * item.extension contains
+    GeccoTargetProfile named targetProfile 0..* MS and
     CompassGeccoItem named geccoItem 0..1 MS and 
     CompassInterversionId named interversionId 0..1 MS and
     LowRangeLabel named lowLabel 0..1 MS and
@@ -43,6 +43,16 @@ Description: "repeats is not allowed for any item.type but choice"
 Expression: "type = 'choice' or repeats.empty()" 
 Severity:   #error
 
+Extension: GeccoTargetProfile
+Id: GeccoTargetProfile
+Title: "Gecco-Profile"
+Description: "Indicates that the element is mapped to a specific GECCO profile"
+* ^context[0].type = #element
+* ^context[0].expression = "Questionnaire.item"
+* ^context[1].type = #element
+* ^context[1].expression = "Questionnaire.item.item"
+* value[x] only canonical
+
 Extension: CompassGeccoItem
 Id: CompassGeccoItem
 Title: "Gecco-Item"
@@ -56,7 +66,6 @@ Description: "Mapping to an item in the Compass-LogicalModel"
 * ^context[3].type = #element
 * ^context[3].expression = "QuestionnaireResponse.item.item"
 * value[x] only Coding
-
 
 Extension: CompassInterversionId
 Id: CompassInterversionId
