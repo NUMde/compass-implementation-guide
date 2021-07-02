@@ -25,12 +25,14 @@ For more information on how the IBM reference app handles the Questionnaire reso
 * http://hl7.org/fhir/StructureDefinition/maxValue
 
 ### Questionnaire.item-IDs 
+
 * Because of the architecture of the IBM app, `linkId` must be of format "1.2.3" and determine order in Questionnaire. The parent's linkId must be a prefix of the child's linkId. It should be assigned automatically by the questionnaire editor.
 * Because we can not choose the linkId freely, the extension `https://num-compass.science/fhir/StructureDefinition/CompassInterversionId` can be used to identify items across different versions.
 
-In case of GECCO-Elements, there should some additional IDs be present:
+In case of GECCO-Elements, some additional extensions should be present on the corresponding Questionnaire item:
+
 * The extension `https://num-compass.science/fhir/StructureDefinition/CompassGeccoItem` identifies the item in the logical reference model.
-* The `item.definition` element contains the url of the mapped profile.
+* The extension `https://num-compass.science/fhir/StructureDefinition/CompassTargetProfile` identifies the GECCO FHIR profile that applies to the resource created by mapping from this element. Multiple instances of this extension can be included if a given element is mapped to multiple resources conforming to different GECCO profiles.
 
 
 ### Questionnaire-IDs and Versioning
