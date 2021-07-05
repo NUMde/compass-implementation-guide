@@ -5,3 +5,4 @@ Alias: $condition-clinical = http://terminology.hl7.org/CodeSystem/condition-cli
 Alias: $condition-ver-status = http://terminology.hl7.org/CodeSystem/condition-ver-status
 Alias: $observation-category = http://terminology.hl7.org/CodeSystem/observation-category
 Alias: $nl = http://not.a.real.url.org/system/code/lifelines/nl
+Alias: $dummySystem = http://not.a.real.url.org/system/code/logicalModelCodes

@@ -144,20 +144,26 @@ Usage: #inline
 * identifier.value = "43814872"
 * birthDate = "1953-09-30"
 
-// GECCO Condition example
-Instance: Inline-Instance-for-conf-test-input-bundle-5
-InstanceOf: Condition
-Usage: #inline
-* meta.profile = "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/chronic-lung-diseases"
-* clinicalStatus = $condition-clinical#active "Active"
-* verificationStatus.coding[0] = $condition-ver-status#confirmed "Confirmed"
-* verificationStatus.coding[+] = $sct#410605003 "Confirmed present (qualifier value)"
-* category = $sct#418112009 "Pulmonary medicine"
-* code = $sct#413839001 "Chronic lung disease"
-* subject.reference = "urn:uuid:b1128693-372d-469b-8288-04cf091e7553"
-* recordedDate = "2020-11-10T15:50:41+01:00"
-
 // GECCO Observation example
+Instance: Inline-Instance-for-conf-test-input-bundle-5
+InstanceOf: Observation
+Usage: #inline
+* meta.profile = "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/sars-cov-2-rt-pcr"
+* identifier.type = $v2-0203#OBI
+* identifier.system = "https://www.charite.de/fhir/CodeSystem/lab-identifiers"
+* identifier.value = "94500-6_SARS-CoV-2-RNA-Presence-in-Respiratory-specimen"
+* identifier.assigner.reference = "urn:uuid:1c616b24-3895-48c4-9a02-9a64110351ef"
+* status = #final
+* category.coding[0] = $loinc#26436-6
+* category.coding[+] = $observation-category#laboratory
+* code = $loinc#94500-6 "SARS-CoV-2 (COVID-19) RNA [Presence] in Respiratory specimen by NAA with probe detection"
+* code.text = "SARS-CoV-2-RNA (PCR)"
+* subject.reference = "urn:uuid:b1128693-372d-469b-8288-04cf091e7553"
+* effectiveDateTime = "2020-11-10T15:50:41+01:00"
+* valueCodeableConcept = $sct#260373001 "Detected (qualifier value)"
+* valueCodeableConcept.text = "SARS-CoV-2-RNA positiv"
+
+// Another GECCO Observation example
 Instance: Inline-Instance-for-conf-test-input-bundle-6
 InstanceOf: Observation
 Usage: #inline
@@ -189,20 +195,20 @@ Usage: #example
 * identifier.value = "urn:uuid:1f3c5f82-b9fd-11eb-be06-3bc44e420d35"
 * timestamp = "2021-05-11T14:30:00+01:00"
 * type = #document
-* entry[0].fullUrl = "urn:uuid:30551ce1-5a28-4356-b684-1e639094ad4d"
+* entry[0].fullUrl = "urn:uuid:e76a3112-add2-473b-9e69-fe9e09dd0e5f"
 * entry[=].resource = Inline-Instance-for-conf-test-input-bundle-quest-1
 * entry[+].fullUrl = "urn:uuid:c64139e7-f02d-409c-bf34-75e8bf23bc80"
-* entry[=].resource = Inline-Instance-for-conf-test-input-bundle-quest-2
+* entry[=].resource = Inline-Instance-for-conf-test-input-bundle-2
 * entry[+].fullUrl = "urn:uuid:1c616b24-3895-48c4-9a02-9a64110351ef"
-* entry[=].resource = Inline-Instance-for-conf-test-input-bundle-quest-3
+* entry[=].resource = Inline-Instance-for-conf-test-input-bundle-3
+* entry[+].fullUrl = "urn:uuid:b1128693-372d-469b-8288-04cf091e7553"
+* entry[=].resource = Inline-Instance-for-conf-test-input-bundle-4
+* entry[+].fullUrl = "urn:uuid:8d4c2cbb-bc80-4e5a-82f0-0babf997660e"
+* entry[=].resource = Inline-Instance-for-conf-test-input-bundle-5
+* entry[+].fullUrl = "urn:uuid:cabb511a-07be-4f2d-9444-54a4171a45a4"
+* entry[=].resource = Inline-Instance-for-conf-test-input-bundle-6
 * entry[+].fullUrl = "urn:uuid:72884cad-ebe6-4f43-a51a-2f978275f132"
 * entry[=].resource = Inline-Instance-for-conf-test-input-bundle-quest-4
-* entry[+].fullUrl = "urn:uuid:b1128693-372d-469b-8288-04cf091e7553"
-* entry[=].resource = Inline-Instance-for-conf-test-input-bundle-quest-5
-* entry[+].fullUrl = "urn:uuid:8d4c2cbb-bc80-4e5a-82f0-0babf997660e"
-* entry[=].resource = Inline-Instance-for-conf-test-input-bundle-quest-6
-* entry[+].fullUrl = "urn:uuid:cabb511a-07be-4f2d-9444-54a4171a45a4"
-* entry[=].resource = Inline-Instance-for-conf-test-input-bundle-quest-7
 
 // Composition
 Instance: Inline-Instance-for-conf-test-input-bundle-quest-1
@@ -228,109 +234,43 @@ Usage: #inline
 * section[=].entry[+].reference = "urn:uuid:8d4c2cbb-bc80-4e5a-82f0-0babf997660e"
 * section[=].entry[+].reference = "urn:uuid:cabb511a-07be-4f2d-9444-54a4171a45a4"
 
-// Information about the software (Device resource)
-Instance: Inline-Instance-for-conf-test-input-bundle-quest-2
-InstanceOf: Device
-Usage: #inline
-* deviceName.name = "Example COVID-19 app"
-* deviceName.type = #manufacturer-name
-* type = $sct#706689003 "Application program software"
-* version.value = "1.3.4"
-* owner = Reference(urn:uuid:1c616b24-3895-48c4-9a02-9a64110351ef)
-
-// Information about the organization publishing the software (Organization resource)
-Instance: Inline-Instance-for-conf-test-input-bundle-quest-3
-InstanceOf: Organization
-Usage: #inline
-* name = "Klinik für Infektiologie - Universitätsklinikum Beispielstadt"
-* telecom.system = #email
-* telecom.value = "uk-beispiel@example.com"
-* address.line = "Spitalgasse 123"
-* address.city = "Beispielstadt"
-* address.postalCode = "123456"
-* address.country = "Germany"
-
 // Questionnaire used in the software
 Instance: Inline-Instance-for-conf-test-input-bundle-quest-4
 InstanceOf: Questionnaire
 Usage: #inline
-* url = "http://example.com/some-app-questionnaire"
-* status = #active
+* url = "http://foo.bar/fhir/Questionnaire/test-q"
+* version = "1.0"
+* title = "Test-Fragebogen NUM compass"
+* status = #draft
 * subjectType = #Patient
-* code = $nl#"VL 1-1, 18-65_1.2.2" "Lifelines Questionnaire 1 part 1"
-* item[0].linkId = "1"
-* item[=].text = "Do you have allergies?"
-* item[=].type = #boolean
-* item[+].linkId = "2"
-* item[=].text = "General questions"
-* item[=].type = #group
-* item[=].item[0].linkId = "2.1"
-* item[=].item[=].text = "What is your gender?"
-* item[=].item[=].type = #string
-* item[=].item[+].linkId = "2.2"
-* item[=].item[=].text = "What is your date of birth?"
-* item[=].item[=].type = #date
-* item[=].item[+].linkId = "2.3"
-* item[=].item[=].text = "What is your country of birth?"
-* item[=].item[=].type = #string
-* item[=].item[+].linkId = "2.4"
-* item[=].item[=].text = "What is your marital status?"
-* item[=].item[=].type = #string
-* item[+].linkId = "3"
-* item[=].text = "Intoxications"
-* item[=].type = #group
-* item[=].item[0].linkId = "3.1"
-* item[=].item[=].text = "Do you smoke?"
-* item[=].item[=].type = #boolean
-* item[=].item[+].linkId = "3.2"
-* item[=].item[=].text = "Do you drink alcohol?"
-* item[=].item[=].type = #boolean
-
-// GECCO Patient example
-Instance: Inline-Instance-for-conf-test-input-bundle-quest-5
-InstanceOf: Patient
-Usage: #inline
-* meta.profile = "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/Patient"
-* extension[0].url = "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/ethnic-group"
-* extension[=].valueCoding = $sct#186019001 "Other ethnic, mixed origin"
-* extension[+].extension[0].url = "dateTimeOfDocumentation"
-* extension[=].extension[=].valueDateTime = "2020-10-01"
-* extension[=].extension[+].url = "age"
-* extension[=].extension[=].valueAge = 67 'a' "years"
-* extension[=].url = "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/age"
-* identifier.type = $v2-0203#MR
-* identifier.system = "https://www.charite.de/fhir/CodeSystem/medical-record-numbers"
-* identifier.value = "43814872"
-* birthDate = "1953-09-30"
-
-// GECCO Condition example
-Instance: Inline-Instance-for-conf-test-input-bundle-quest-6
-InstanceOf: Condition
-Usage: #inline
-* meta.profile = "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/chronic-lung-diseases"
-* clinicalStatus = $condition-clinical#active "Active"
-* verificationStatus.coding[0] = $condition-ver-status#confirmed "Confirmed"
-* verificationStatus.coding[+] = $sct#410605003 "Confirmed present (qualifier value)"
-* category = $sct#418112009 "Pulmonary medicine"
-* code = $sct#413839001 "Chronic lung disease"
-* subject.reference = "urn:uuid:b1128693-372d-469b-8288-04cf091e7553"
-* recordedDate = "2020-11-10T15:50:41+01:00"
-
-// GECCO Observation example
-Instance: Inline-Instance-for-conf-test-input-bundle-quest-7
-InstanceOf: Observation
-Usage: #inline
-* meta.profile = "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/sars-cov-2-rt-pcr"
-* identifier.type = $v2-0203#OBI
-* identifier.system = "https://www.charite.de/fhir/CodeSystem/lab-identifiers"
-* identifier.value = "94500-6_SARS-CoV-2-RNA-Presence-in-Respiratory-specimen"
-* identifier.assigner.reference = "urn:uuid:1c616b24-3895-48c4-9a02-9a64110351ef"
-* status = #final
-* category.coding[0] = $loinc#26436-6
-* category.coding[+] = $observation-category#laboratory
-* code = $loinc#94500-6 "SARS-CoV-2 (COVID-19) RNA [Presence] in Respiratory specimen by NAA with probe detection"
-* code.text = "SARS-CoV-2-RNA (PCR)"
-* subject.reference = "urn:uuid:b1128693-372d-469b-8288-04cf091e7553"
-* effectiveDateTime = "2020-11-10T15:50:41+01:00"
-* valueCodeableConcept = $sct#260373001 "Detected (qualifier value)"
-* valueCodeableConcept.text = "SARS-CoV-2-RNA positiv"
+* date = "2021-07-05"
+* item[0].linkId = "0.1"
+* item[=].text = "Patient last name"
+* item[=].type = #string
+* item[=].extension[0].url = "https://num-compass.science/fhir/StructureDefinition/CompassGeccoItem"
+* item[=].extension[=].valueCoding = $dummySystem#123 "Dummy code 1"
+* item[=].extension[+].url = "https://num-compass.science/fhir/StructureDefinition/CompassInterversionId"
+* item[=].extension[=].valueString = "0.1.0"
+* item[=].extension[+].url = "https://num-compass.science/fhir/StructureDefinition/GeccoTargetProfile"
+* item[=].extension[=].valueCanonical = "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/Patient"
+* item[=].required = true
+* item[1].linkId = "0.2"
+* item[=].text = "Date of first positive SARS-CoV-2 test"
+* item[=].type = #date
+* item[=].extension[0].url = "https://num-compass.science/fhir/StructureDefinition/CompassGeccoItem"
+* item[=].extension[=].valueCoding = $dummySystem#456 "Dummy code 2"
+* item[=].extension[+].url = "https://num-compass.science/fhir/StructureDefinition/CompassInterversionId"
+* item[=].extension[=].valueString = "0.1.0"
+* item[=].extension[+].url = "https://num-compass.science/fhir/StructureDefinition/GeccoTargetProfile"
+* item[=].extension[=].valueCanonical = "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/sars-cov-2-rt-pcr"
+* item[=].required = true
+* item[2].linkId = "0.3"
+* item[=].text = "Date of first negative SARS-CoV-2 test"
+* item[=].type = #date
+* item[=].extension[0].url = "https://num-compass.science/fhir/StructureDefinition/CompassGeccoItem"
+* item[=].extension[=].valueCoding = $dummySystem#789 "Dummy code 3"
+* item[=].extension[+].url = "https://num-compass.science/fhir/StructureDefinition/CompassInterversionId"
+* item[=].extension[=].valueString = "0.1.0"
+* item[=].extension[+].url = "https://num-compass.science/fhir/StructureDefinition/GeccoTargetProfile"
+* item[=].extension[=].valueCanonical = "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/sars-cov-2-rt-pcr"
+* item[=].required = true
