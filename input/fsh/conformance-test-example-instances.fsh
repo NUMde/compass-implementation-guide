@@ -178,9 +178,9 @@ Usage: #inline
 * code = $loinc#94500-6 "SARS-CoV-2 (COVID-19) RNA [Presence] in Respiratory specimen by NAA with probe detection"
 * code.text = "SARS-CoV-2-RNA (PCR)"
 * subject.reference = "urn:uuid:b1128693-372d-469b-8288-04cf091e7553"
-* effectiveDateTime = "2020-11-10T15:50:41+01:00"
-* valueCodeableConcept = $sct#260373001 "Detected (qualifier value)"
-* valueCodeableConcept.text = "SARS-CoV-2-RNA positiv"
+* effectiveDateTime = "2020-11-15T15:50:41+01:00"
+* valueCodeableConcept = $sct#260415000 "Not detected (qualifier value)"
+* valueCodeableConcept.text = "SARS-CoV-2-RNA negativ"
 
 /*
 --------------------------------------------------------------------------------------------------
@@ -245,32 +245,35 @@ Usage: #inline
 * subjectType = #Patient
 * date = "2021-07-05"
 * item[0].linkId = "0.1"
-* item[=].text = "Patient last name"
-* item[=].type = #string
-* item[=].extension[0].url = "https://num-compass.science/fhir/StructureDefinition/CompassGeccoItem"
-* item[=].extension[=].valueCoding = $dummySystem#123 "Dummy code 1"
-* item[=].extension[+].url = "https://num-compass.science/fhir/StructureDefinition/CompassInterversionId"
+* item[=].text = "Patient date of birth"
+* item[=].type = #date
+* item[=].extension[0].url = $geccoItemExtUrl
+* item[=].extension[=].valueCoding = $geccoItemCs#demographics.dateOfBirth
+* item[=].extension[+].url = $geccoInterVersionExtUrl
 * item[=].extension[=].valueString = "0.1.0"
-* item[=].extension[+].url = "https://num-compass.science/fhir/StructureDefinition/GeccoTargetProfile"
+* item[=].extension[+].url = $geccoTargetProfileExtUrl
 * item[=].extension[=].valueCanonical = "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/Patient"
 * item[=].required = true
-* item[1].linkId = "0.2"
-* item[=].text = "Date of first positive SARS-CoV-2 test"
-* item[=].type = #date
-* item[=].extension[0].url = "https://num-compass.science/fhir/StructureDefinition/CompassGeccoItem"
-* item[=].extension[=].valueCoding = $dummySystem#456 "Dummy code 2"
-* item[=].extension[+].url = "https://num-compass.science/fhir/StructureDefinition/CompassInterversionId"
-* item[=].extension[=].valueString = "0.1.0"
-* item[=].extension[+].url = "https://num-compass.science/fhir/StructureDefinition/GeccoTargetProfile"
-* item[=].extension[=].valueCanonical = "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/sars-cov-2-rt-pcr"
-* item[=].required = true
-* item[2].linkId = "0.3"
-* item[=].text = "Date of first negative SARS-CoV-2 test"
-* item[=].type = #date
-* item[=].extension[0].url = "https://num-compass.science/fhir/StructureDefinition/CompassGeccoItem"
-* item[=].extension[=].valueCoding = $dummySystem#789 "Dummy code 3"
-* item[=].extension[+].url = "https://num-compass.science/fhir/StructureDefinition/CompassInterversionId"
-* item[=].extension[=].valueString = "0.1.0"
-* item[=].extension[+].url = "https://num-compass.science/fhir/StructureDefinition/GeccoTargetProfile"
-* item[=].extension[=].valueCanonical = "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/sars-cov-2-rt-pcr"
-* item[=].required = true
+* item[+].linkId = "1"
+* item[=].text = "Fragegruppe 1"
+* item[=].type = #group
+* item[=].item[0].linkId = "1.1"
+* item[=].item[=].text = "Was there positive SARS-CoV-2 PCR test?"
+* item[=].item[=].type = #boolean
+* item[=].item[=].extension[0].url = $geccoItemExtUrl
+* item[=].item[=].extension[=].valueCoding = $geccoItemCs#laboratoryValues.sarsCov2RtPcrResult
+* item[=].item[=].extension[+].url = $geccoInterVersionExtUrl
+* item[=].item[=].extension[=].valueString = "0.1.0"
+* item[=].item[=].extension[+].url = $geccoTargetProfileExtUrl
+* item[=].item[=].extension[=].valueCanonical = "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/sars-cov-2-rt-pcr"
+* item[=].item[=].required = true
+* item[=].item[+].linkId = "1.2"
+* item[=].item[=].text = "Was there a negative SARS-CoV-2 PRC test?"
+* item[=].item[=].type = #date
+* item[=].item[=].extension[0].url = $geccoItemExtUrl
+* item[=].item[=].extension[=].valueCoding = $geccoItemCs#laboratoryValues.sarsCov2RtPcrResult
+* item[=].item[=].extension[+].url = $geccoInterVersionExtUrl
+* item[=].item[=].extension[=].valueString = "0.1.0"
+* item[=].item[=].extension[+].url = $geccoTargetProfileExtUrl
+* item[=].item[=].extension[=].valueCanonical = "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/sars-cov-2-rt-pcr"
+* item[=].item[=].required = true

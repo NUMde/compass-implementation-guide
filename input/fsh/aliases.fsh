@@ -1,3 +1,7 @@
+Alias: $geccoItemExtUrl = https://num-compass.science/fhir/StructureDefinition/CompassGeccoItem
+Alias: $geccoInterVersionExtUrl = https://num-compass.science/fhir/StructureDefinition/CompassInterversionId
+Alias: $geccoTargetProfileExtUrl = https://num-compass.science/fhir/StructureDefinition/GeccoTargetProfile
+Alias: $geccoItemCs = https://num-compass.science/fhir/CodeSystem/CompassGeccoItem
 Alias: $loinc = http://loinc.org
 Alias: $sct = http://snomed.info/sct
 Alias: $v2-0203 = http://terminology.hl7.org/CodeSystem/v2-0203
