@@ -248,7 +248,7 @@ Usage: #inline
 * item[=].text = "Patient date of birth"
 * item[=].type = #date
 * item[=].extension[0].url = $geccoItemExtUrl
-* item[=].extension[=].valueCoding = $geccoItemCs#demographics.dateOfBirth
+* item[=].extension[=].valueCoding = $geccoItemCs|1.0#demographics.dateOfBirth
 * item[=].extension[+].url = $geccoInterVersionExtUrl
 * item[=].extension[=].valueString = "0.1.0"
 * item[=].extension[+].url = $geccoTargetProfileExtUrl
@@ -261,7 +261,7 @@ Usage: #inline
 * item[=].item[=].text = "Was there positive SARS-CoV-2 PCR test?"
 * item[=].item[=].type = #boolean
 * item[=].item[=].extension[0].url = $geccoItemExtUrl
-* item[=].item[=].extension[=].valueCoding = $geccoItemCs#laboratoryValues.sarsCov2RtPcrResult
+* item[=].item[=].extension[=].valueCoding = $geccoItemCs|1.0#laboratoryValues.sarsCov2RtPcrResult
 * item[=].item[=].extension[+].url = $geccoInterVersionExtUrl
 * item[=].item[=].extension[=].valueString = "0.1.0"
 * item[=].item[=].extension[+].url = $geccoTargetProfileExtUrl
@@ -271,7 +271,7 @@ Usage: #inline
 * item[=].item[=].text = "Was there a negative SARS-CoV-2 PRC test?"
 * item[=].item[=].type = #date
 * item[=].item[=].extension[0].url = $geccoItemExtUrl
-* item[=].item[=].extension[=].valueCoding = $geccoItemCs#laboratoryValues.sarsCov2RtPcrResult
+* item[=].item[=].extension[=].valueCoding = $geccoItemCs|1.0#laboratoryValues.sarsCov2RtPcrResult
 * item[=].item[=].extension[+].url = $geccoInterVersionExtUrl
 * item[=].item[=].extension[=].valueString = "0.1.0"
 * item[=].item[=].extension[+].url = $geccoTargetProfileExtUrl
