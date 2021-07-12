@@ -28,7 +28,7 @@ Id: NumConformanceTestComposition
 * section ^slicing.discriminator.path = "code"
 * section ^slicing.ordered = false
 * section ^slicing.rules = #closed
-* section ^short = "Sections of the conformity test bundle"
+* section ^short = "Sections of the conformance test bundle"
 * section contains
     software 1..1 and
     publishingOrg 1..1 and
