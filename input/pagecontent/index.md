@@ -77,5 +77,5 @@ The return value from the conformance test HTTP endpoint depends on whether the 
 
 The output in the two cases is
 
-* **Conformity test passed:** A PDF documents documenting the successful test is returned.
-* **Conformity test failed:** A FHIR [OperationOutcome resource](https://www.hl7.org/fhir/r4/operationoutcome.html) giving result of the validation process, including the errors found.
+* **conformance test passed:** A PDF documents documenting the successful test is returned.
+* **conformance test failed:** A FHIR [OperationOutcome resource](https://www.hl7.org/fhir/r4/operationoutcome.html) giving result of the validation process, including the errors found.
