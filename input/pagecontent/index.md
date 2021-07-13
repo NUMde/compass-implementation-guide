@@ -74,7 +74,7 @@ The set of test resources should represent the full breath of resource types and
 
 _As mentioned above, the test resource **cannot** be QuestionnaireResponse resources. If the app collects data in the form of QuestionnaireResponse resources, they must first be mapped to resources covered by the GECCO standard before being used for conformance testing._
 
-### Conditions for passing conformance test
+#### Output
 
 The return value from the conformance test HTTP endpoint depends on whether the test passed or not. A test is considered passed if and only if
 
