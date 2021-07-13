@@ -41,6 +41,7 @@ Usage: #definition
 * resource[0] = #Bundle
 * inputProfile = "https://num-compass.science/fhir/StructureDefinition/NumConformanceTestBundle"
 * parameter[0].name = #resource
+* parameter[=].type = #Bundle
 * parameter[=].use = #in
 * parameter[=].min = 1
 * parameter[=].max = "1"
