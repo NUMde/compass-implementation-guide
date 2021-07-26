@@ -16,6 +16,9 @@ This is the implementation guide for the FHIR Questionnaires used by the referen
 
 For more information on how the IBM reference app handles the Questionnaire resource, see the [frontend documentation of the reference app](https://github.com/NUMde/compass-numapp-frontend/tree/main/docs/questionnaireRendering).
 
+### Additional hint:
+* The item.type "choice" requires the item.answerOption-list to be of type "Coding". To create lists of strings or integers the user can choose from, use type = "string" or type = "integer" and a answerOption-list with valueString or valueInteger. See the discussion here: https://chat.fhir.org/#narrow/stream/179255-questionnaire/topic/type.3Dchoice.20and.20answerOption.2EvalueInteger.3F
+
 ### Supported extensions
 * http://hl7.org/fhir/R4/extension-questionnaire-itemcontrol.html ("slider" only)
 * https://num-compass.science/fhir/StructureDefinition/LowRangeLabel
