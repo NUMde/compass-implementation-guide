@@ -1,9 +1,9 @@
 /*
 --------------------------------------------------------------------------------------------------
-EXAMPLE OF A GECCO CONFORMANCE DOCUMENT (PDF) RETURNED AFTER A SUCCESSFUL CONFORMITY TEST (DOCUMENTREFERENCE RESOURCE)
+EXAMPLE OF A GECCO CONFORMANCE DOCUMENT (PDF) RETURNED AFTER A SUCCESSFUL CONFORMANCE TEST (DOCUMENTREFERENCE RESOURCE)
 --------------------------------------------------------------------------------------------------
 */
-Instance: conformity-test-pdf
+Instance: conformance-test-pdf
 InstanceOf: Binary
 Usage: #example
 * contentType = #application/pdf
@@ -14,7 +14,7 @@ Usage: #example
 EXAMPLE OF A RESPONSE TO A DATA SET THAT IS NOT CONFORMANT (OPERATIONOUTCOME RESOURCE LISTING ERRORS)
 --------------------------------------------------------------------------------------------------
 */
-Instance: conformity-test-opsout
+Instance: conformance-test-opsout
 InstanceOf: OperationOutcome
 Usage: #example
 * issue[0].severity = #warning
