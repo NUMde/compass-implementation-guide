@@ -78,4 +78,4 @@ Usage: #definition
 * parameter[=].min = 1
 * parameter[=].max = "1"
 * parameter[=].documentation = "List of the canonical URIs of all loaded validation resources"
-* parameter[=].type = #String
+* parameter[=].type = #string
