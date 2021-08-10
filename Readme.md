@@ -10,3 +10,6 @@ This project aims to be the single source of truth for the [FHIR Questionnaires]
     * [FHIR operations defined for NUM-COMPASS conformance service](input/fsh/conformance-test-operation-definitions.fsh)
     * [Aliases used in other FSH files](input/fsh/aliases.fsh)
     * [Other resoures defined in Compass (CodeSystems, ...)](input/fsh/other-resources.fsh)
+* Example Questionnaires
+    * [Generic Questionnaire](input/questionnaire-generic.json)
+    * [GECCO-Reference-Questionnaire](input/questionnaire-gecco.json)
