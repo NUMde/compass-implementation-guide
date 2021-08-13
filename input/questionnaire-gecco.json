@@ -5854,6 +5854,7 @@
           }
         } ],
         "linkId": "9.1.1",
+        "text": "Vorhandensein?",
         "type": "choice",
         "answerOption": [ {
           "valueCoding": {
@@ -5884,7 +5885,7 @@
           }
         } ],
         "linkId": "9.1.2",
-        "text": "severity",
+        "text": "Schweregrad?",
         "type": "choice",
         "enableWhen": [ {
           "question": "9.1.1",
@@ -5976,6 +5977,7 @@
           }
         } ],
         "linkId": "9.3.1",
+        "text": "Vorhandensein?",
         "type": "choice",
         "answerOption": [ {
           "valueCoding": {
@@ -6006,7 +6008,7 @@
           }
         } ],
         "linkId": "9.3.2",
-        "text": "severity",
+        "text": "Schweregrad?",
         "type": "choice",
         "enableWhen": [ {
           "question": "9.3.1",
@@ -6066,6 +6068,7 @@
           }
         } ],
         "linkId": "9.4.1",
+        "text": "Vorhandensein?",
         "type": "choice",
         "answerOption": [ {
           "valueCoding": {
@@ -6096,7 +6099,7 @@
           }
         } ],
         "linkId": "9.4.2",
-        "text": "severity",
+        "text": "Schweregrad?",
         "type": "choice",
         "enableWhen": [ {
           "question": "9.4.1",
@@ -6156,6 +6159,7 @@
           }
         } ],
         "linkId": "9.5.1",
+        "text": "Vorhandensein?",
         "type": "choice",
         "answerOption": [ {
           "valueCoding": {
@@ -6186,7 +6190,7 @@
           }
         } ],
         "linkId": "9.5.2",
-        "text": "severity",
+        "text": "Schweregrad?",
         "type": "choice",
         "enableWhen": [ {
           "question": "9.5.1",
@@ -6246,6 +6250,7 @@
           }
         } ],
         "linkId": "9.6.1",
+        "text": "Vorhandensein?",
         "type": "choice",
         "answerOption": [ {
           "valueCoding": {
@@ -6276,7 +6281,7 @@
           }
         } ],
         "linkId": "9.6.2",
-        "text": "severity",
+        "text": "Schweregrad?",
         "type": "choice",
         "enableWhen": [ {
           "question": "9.6.1",
@@ -6336,6 +6341,7 @@
           }
         } ],
         "linkId": "9.7.1",
+        "text": "Vorhandensein?",
         "type": "choice",
         "answerOption": [ {
           "valueCoding": {
@@ -6366,7 +6372,7 @@
           }
         } ],
         "linkId": "9.7.2",
-        "text": "severity",
+        "text": "Schweregrad?",
         "type": "choice",
         "enableWhen": [ {
           "question": "9.7.1",
@@ -6426,6 +6432,7 @@
           }
         } ],
         "linkId": "9.8.1",
+        "text": "Vorhandensein?",
         "type": "choice",
         "answerOption": [ {
           "valueCoding": {
@@ -6456,7 +6463,7 @@
           }
         } ],
         "linkId": "9.8.2",
-        "text": "severity",
+        "text": "Schweregrad?",
         "type": "choice",
         "enableWhen": [ {
           "question": "9.8.1",
@@ -6516,6 +6523,7 @@
           }
         } ],
         "linkId": "9.9.1",
+        "text": "Vorhandensein?",
         "type": "choice",
         "answerOption": [ {
           "valueCoding": {
@@ -6546,7 +6554,7 @@
           }
         } ],
         "linkId": "9.9.2",
-        "text": "severity",
+        "text": "Schweregrad?",
         "type": "choice",
         "enableWhen": [ {
           "question": "9.9.1",
@@ -6606,6 +6614,7 @@
           }
         } ],
         "linkId": "9.10.1",
+        "text": "Vorhandensein?",
         "type": "choice",
         "answerOption": [ {
           "valueCoding": {
@@ -6636,7 +6645,7 @@
           }
         } ],
         "linkId": "9.10.2",
-        "text": "severity",
+        "text": "Schweregrad?",
         "type": "choice",
         "enableWhen": [ {
           "question": "9.10.1",
@@ -6696,6 +6705,7 @@
           }
         } ],
         "linkId": "9.11.1",
+        "text": "Vorhandensein?",
         "type": "choice",
         "answerOption": [ {
           "valueCoding": {
@@ -6726,7 +6736,7 @@
           }
         } ],
         "linkId": "9.11.2",
-        "text": "severity",
+        "text": "Schweregrad?",
         "type": "choice",
         "enableWhen": [ {
           "question": "9.11.1",
@@ -6786,6 +6796,7 @@
           }
         } ],
         "linkId": "9.12.1",
+        "text": "Vorhandensein?",
         "type": "choice",
         "answerOption": [ {
           "valueCoding": {
@@ -6816,7 +6827,7 @@
           }
         } ],
         "linkId": "9.12.2",
-        "text": "severity",
+        "text": "Schweregrad?",
         "type": "choice",
         "enableWhen": [ {
           "question": "9.12.1",
@@ -6876,6 +6887,7 @@
           }
         } ],
         "linkId": "9.13.1",
+        "text": "Vorhandensein?",
         "type": "choice",
         "answerOption": [ {
           "valueCoding": {
@@ -6906,7 +6918,7 @@
           }
         } ],
         "linkId": "9.13.2",
-        "text": "severity",
+        "text": "Schweregrad?",
         "type": "choice",
         "enableWhen": [ {
           "question": "9.13.1",
@@ -6966,6 +6978,7 @@
           }
         } ],
         "linkId": "9.14.1",
+        "text": "Vorhandensein?",
         "type": "choice",
         "answerOption": [ {
           "valueCoding": {
@@ -6996,7 +7009,7 @@
           }
         } ],
         "linkId": "9.14.2",
-        "text": "severity",
+        "text": "Schweregrad?",
         "type": "choice",
         "enableWhen": [ {
           "question": "9.14.1",
@@ -7056,6 +7069,7 @@
           }
         } ],
         "linkId": "9.15.1",
+        "text": "Vorhandensein?",
         "type": "choice",
         "answerOption": [ {
           "valueCoding": {
@@ -7086,7 +7100,7 @@
           }
         } ],
         "linkId": "9.15.2",
-        "text": "severity",
+        "text": "Schweregrad?",
         "type": "choice",
         "enableWhen": [ {
           "question": "9.15.1",
@@ -7146,6 +7160,7 @@
           }
         } ],
         "linkId": "9.16.1",
+        "text": "Vorhandensein?",
         "type": "choice",
         "answerOption": [ {
           "valueCoding": {
@@ -7176,7 +7191,7 @@
           }
         } ],
         "linkId": "9.16.2",
-        "text": "severity",
+        "text": "Schweregrad?",
         "type": "choice",
         "enableWhen": [ {
           "question": "9.16.1",
@@ -7236,6 +7251,7 @@
           }
         } ],
         "linkId": "9.17.1",
+        "text": "Vorhandensein?",
         "type": "choice",
         "answerOption": [ {
           "valueCoding": {
@@ -7266,7 +7282,7 @@
           }
         } ],
         "linkId": "9.17.2",
-        "text": "severity",
+        "text": "Schweregrad?",
         "type": "choice",
         "enableWhen": [ {
           "question": "9.17.1",
@@ -7326,6 +7342,7 @@
           }
         } ],
         "linkId": "9.18.1",
+        "text": "Vorhandensein?",
         "type": "choice",
         "answerOption": [ {
           "valueCoding": {
@@ -7356,7 +7373,7 @@
           }
         } ],
         "linkId": "9.18.2",
-        "text": "severity",
+        "text": "Schweregrad?",
         "type": "choice",
         "enableWhen": [ {
           "question": "9.18.1",
@@ -7416,6 +7433,7 @@
           }
         } ],
         "linkId": "9.19.1",
+        "text": "Vorhandensein?",
         "type": "choice",
         "answerOption": [ {
           "valueCoding": {
@@ -7446,7 +7464,7 @@
           }
         } ],
         "linkId": "9.19.2",
-        "text": "severity",
+        "text": "Schweregrad?",
         "type": "choice",
         "enableWhen": [ {
           "question": "9.19.1",
@@ -7506,6 +7524,7 @@
           }
         } ],
         "linkId": "9.20.1",
+        "text": "Vorhandensein?",
         "type": "choice",
         "answerOption": [ {
           "valueCoding": {
@@ -7536,7 +7555,7 @@
           }
         } ],
         "linkId": "9.20.2",
-        "text": "severity",
+        "text": "Schweregrad?",
         "type": "choice",
         "enableWhen": [ {
           "question": "9.20.1",
@@ -7596,6 +7615,7 @@
           }
         } ],
         "linkId": "9.21.1",
+        "text": "Vorhandensein?",
         "type": "choice",
         "answerOption": [ {
           "valueCoding": {
@@ -7626,7 +7646,7 @@
           }
         } ],
         "linkId": "9.21.2",
-        "text": "severity",
+        "text": "Schweregrad?",
         "type": "choice",
         "enableWhen": [ {
           "question": "9.21.1",
@@ -7686,6 +7706,7 @@
           }
         } ],
         "linkId": "9.22.1",
+        "text": "Vorhandensein?",
         "type": "choice",
         "answerOption": [ {
           "valueCoding": {
@@ -7716,7 +7737,7 @@
           }
         } ],
         "linkId": "9.22.2",
-        "text": "severity",
+        "text": "Schweregrad?",
         "type": "choice",
         "enableWhen": [ {
           "question": "9.22.1",
@@ -7776,6 +7797,7 @@
           }
         } ],
         "linkId": "9.23.1",
+        "text": "Vorhandensein?",
         "type": "choice",
         "answerOption": [ {
           "valueCoding": {
@@ -7806,7 +7828,7 @@
           }
         } ],
         "linkId": "9.23.2",
-        "text": "severity",
+        "text": "Schweregrad?",
         "type": "choice",
         "enableWhen": [ {
           "question": "9.23.1",
@@ -7866,6 +7888,7 @@
           }
         } ],
         "linkId": "9.24.1",
+        "text": "Vorhandensein?",
         "type": "choice",
         "answerOption": [ {
           "valueCoding": {
@@ -7896,7 +7919,7 @@
           }
         } ],
         "linkId": "9.24.2",
-        "text": "severity",
+        "text": "Schweregrad?",
         "type": "choice",
         "enableWhen": [ {
           "question": "9.24.1",
@@ -7956,6 +7979,7 @@
           }
         } ],
         "linkId": "9.25.1",
+        "text": "Vorhandensein?",
         "type": "choice",
         "answerOption": [ {
           "valueCoding": {
@@ -7986,7 +8010,7 @@
           }
         } ],
         "linkId": "9.25.2",
-        "text": "severity",
+        "text": "Schweregrad?",
         "type": "choice",
         "enableWhen": [ {
           "question": "9.25.1",
@@ -8046,6 +8070,7 @@
           }
         } ],
         "linkId": "9.26.1",
+        "text": "Vorhandensein?",
         "type": "choice",
         "answerOption": [ {
           "valueCoding": {
@@ -8076,7 +8101,7 @@
           }
         } ],
         "linkId": "9.26.2",
-        "text": "severity",
+        "text": "Schweregrad?",
         "type": "choice",
         "enableWhen": [ {
           "question": "9.26.1",
@@ -8136,6 +8161,7 @@
           }
         } ],
         "linkId": "9.27.1",
+        "text": "Vorhandensein?",
         "type": "choice",
         "answerOption": [ {
           "valueCoding": {
@@ -8166,7 +8192,7 @@
           }
         } ],
         "linkId": "9.27.2",
-        "text": "severity",
+        "text": "Schweregrad?",
         "type": "choice",
         "enableWhen": [ {
           "question": "9.27.1",
@@ -8226,6 +8252,7 @@
           }
         } ],
         "linkId": "9.28.1",
+        "text": "Vorhandensein?",
         "type": "choice",
         "answerOption": [ {
           "valueCoding": {
@@ -8256,7 +8283,7 @@
           }
         } ],
         "linkId": "9.28.2",
-        "text": "severity",
+        "text": "Schweregrad?",
         "type": "choice",
         "enableWhen": [ {
           "question": "9.28.1",
@@ -8316,6 +8343,7 @@
           }
         } ],
         "linkId": "9.29.1",
+        "text": "Vorhandensein?",
         "type": "choice",
         "answerOption": [ {
           "valueCoding": {
@@ -8346,7 +8374,7 @@
           }
         } ],
         "linkId": "9.29.2",
-        "text": "severity",
+        "text": "Schweregrad?",
         "type": "choice",
         "enableWhen": [ {
           "question": "9.29.1",
@@ -8406,6 +8434,7 @@
           }
         } ],
         "linkId": "9.30.1",
+        "text": "Vorhandensein?",
         "type": "choice",
         "answerOption": [ {
           "valueCoding": {
@@ -8436,7 +8465,7 @@
           }
         } ],
         "linkId": "9.30.2",
-        "text": "severity",
+        "text": "Schweregrad?",
         "type": "choice",
         "enableWhen": [ {
           "question": "9.30.1",
@@ -8496,6 +8525,7 @@
           }
         } ],
         "linkId": "9.31.1",
+        "text": "Vorhandensein?",
         "type": "choice",
         "answerOption": [ {
           "valueCoding": {
@@ -8526,7 +8556,7 @@
           }
         } ],
         "linkId": "9.31.2",
-        "text": "severity",
+        "text": "Schweregrad?",
         "type": "choice",
         "enableWhen": [ {
           "question": "9.31.1",
@@ -8586,6 +8616,7 @@
           }
         } ],
         "linkId": "9.32.1",
+        "text": "Vorhandensein?",
         "type": "choice",
         "answerOption": [ {
           "valueCoding": {
@@ -8616,7 +8647,7 @@
           }
         } ],
         "linkId": "9.32.2",
-        "text": "severity",
+        "text": "Schweregrad?",
         "type": "choice",
         "enableWhen": [ {
           "question": "9.32.1",
@@ -8676,6 +8707,7 @@
           }
         } ],
         "linkId": "9.33.1",
+        "text": "Vorhandensein?",
         "type": "choice",
         "answerOption": [ {
           "valueCoding": {
@@ -8706,7 +8738,7 @@
           }
         } ],
         "linkId": "9.33.2",
-        "text": "severity",
+        "text": "Schweregrad?",
         "type": "choice",
         "enableWhen": [ {
           "question": "9.33.1",
@@ -8766,6 +8798,7 @@
           }
         } ],
         "linkId": "9.34.1",
+        "text": "Vorhandensein?",
         "type": "choice",
         "answerOption": [ {
           "valueCoding": {
@@ -8796,7 +8829,7 @@
           }
         } ],
         "linkId": "9.34.2",
-        "text": "severity",
+        "text": "Schweregrad?",
         "type": "choice",
         "enableWhen": [ {
           "question": "9.34.1",
@@ -8856,6 +8889,7 @@
           }
         } ],
         "linkId": "9.35.1",
+        "text": "Vorhandensein?",
         "type": "choice",
         "answerOption": [ {
           "valueCoding": {
@@ -8886,7 +8920,7 @@
           }
         } ],
         "linkId": "9.35.2",
-        "text": "severity",
+        "text": "Schweregrad?",
         "type": "choice",
         "enableWhen": [ {
           "question": "9.35.1",
@@ -8946,6 +8980,7 @@
           }
         } ],
         "linkId": "9.36.1",
+        "text": "Vorhandensein?",
         "type": "choice",
         "answerOption": [ {
           "valueCoding": {
@@ -8976,7 +9011,7 @@
           }
         } ],
         "linkId": "9.36.2",
-        "text": "severity",
+        "text": "Schweregrad?",
         "type": "choice",
         "enableWhen": [ {
           "question": "9.36.1",
@@ -9036,6 +9071,7 @@
           }
         } ],
         "linkId": "9.37.1",
+        "text": "Vorhandensein?",
         "type": "choice",
         "answerOption": [ {
           "valueCoding": {
@@ -9066,7 +9102,7 @@
           }
         } ],
         "linkId": "9.37.2",
-        "text": "severity",
+        "text": "Schweregrad?",
         "type": "choice",
         "enableWhen": [ {
           "question": "9.37.1",
@@ -9126,6 +9162,7 @@
           }
         } ],
         "linkId": "9.38.1",
+        "text": "Vorhandensein?",
         "type": "choice",
         "answerOption": [ {
           "valueCoding": {
@@ -9156,7 +9193,7 @@
           }
         } ],
         "linkId": "9.38.2",
-        "text": "severity",
+        "text": "Schweregrad?",
         "type": "choice",
         "enableWhen": [ {
           "question": "9.38.1",
@@ -9216,6 +9253,7 @@
           }
         } ],
         "linkId": "9.39.1",
+        "text": "Vorhandensein?",
         "type": "choice",
         "answerOption": [ {
           "valueCoding": {
@@ -9246,7 +9284,7 @@
           }
         } ],
         "linkId": "9.39.2",
-        "text": "severity",
+        "text": "Schweregrad?",
         "type": "choice",
         "enableWhen": [ {
           "question": "9.39.1",
@@ -9306,6 +9344,7 @@
           }
         } ],
         "linkId": "9.40.1",
+        "text": "Vorhandensein?",
         "type": "choice",
         "answerOption": [ {
           "valueCoding": {
@@ -9336,7 +9375,7 @@
           }
         } ],
         "linkId": "9.40.2",
-        "text": "severity",
+        "text": "Schweregrad?",
         "type": "choice",
         "enableWhen": [ {
           "question": "9.40.1",
