@@ -11,7 +11,7 @@ This is the implementation guide for the FHIR Questionnaires used by the referen
 * `Questionnaire.item.repeats` is not supported for any `Questionnaire.item.type` other than `choice`. In case of `type = 'choice'` and `repeats = true`, a multiple choice list should be rendered.
 * The `Questionnaire.item.type` quantity, dateTime, time, reference, attachment, openChoice is not supported. //TODO: Add constraint to the profile
 * The first level of items must be of type "group"
-* `Questionnaire.item.answerOption.value` must be either string or integer.
+* `Questionnaire.item.answerOption.value` must be either string, integer or Coding.
 * `Questionnaire.item.enableWhen` is only permitted in combination with the equals-operator.
 
 For more information on how the IBM reference app handles the Questionnaire resource, see the [frontend documentation of the reference app](https://github.com/NUMde/compass-numapp-frontend/tree/main/docs/questionnaireRendering).

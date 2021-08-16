@@ -18,7 +18,7 @@ Description: "A questionnaire, that is compatible with the native IBM App as wel
 * item.enableWhen MS 
 * item.enableBehavior MS 
 * item.enableWhen.operator = #=
-* item.answerOption.value[x] only string or integer
+* item.answerOption.value[x] only string or integer or Coding
 * item.extension contains
     GeccoTargetProfile named targetProfile 0..* MS and
     CompassGeccoItem named geccoItem 0..1 MS and 
