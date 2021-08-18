@@ -3925,7 +3925,7 @@
         "text": "Bundesland",
         "type": "choice",
         "enableWhen": [ {
-          "question": "anamnesis.historyOfTravel.countries",
+          "question": "1.21.3",
           "operator": "=",
           "answerCoding": {
             "system": "urn:iso:std:iso:3166",
