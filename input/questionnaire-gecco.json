@@ -75,9 +75,11 @@
             "version": "1.0",
             "code": "anamnesis.chronicLungDiseases.asthma"
           }
+        }, {
+          "url": "https://num-compass.science/fhir/StructureDefinition/GeccoTargetProfile",
+          "valueString": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/chronic-lung-diseases"
         } ],
         "linkId": "1.2.1",
-        "definition": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/chronic-lung-diseases",
         "text": "Asthma",
         "type": "choice",
         "answerOption": [ {
@@ -107,9 +109,11 @@
             "version": "1.0",
             "code": "anamnesis.chronicLungDiseases.copd"
           }
+        }, {
+          "url": "https://num-compass.science/fhir/StructureDefinition/GeccoTargetProfile",
+          "valueString": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/chronic-lung-diseases"
         } ],
         "linkId": "1.2.2",
-        "definition": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/chronic-lung-diseases",
         "text": "COPD",
         "type": "choice",
         "answerOption": [ {
@@ -139,9 +143,11 @@
             "version": "1.0",
             "code": "anamnesis.chronicLungDiseases.fibrosis"
           }
+        }, {
+          "url": "https://num-compass.science/fhir/StructureDefinition/GeccoTargetProfile",
+          "valueString": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/chronic-lung-diseases"
         } ],
         "linkId": "1.2.3",
-        "definition": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/chronic-lung-diseases",
         "text": "Lungenfibrose",
         "type": "choice",
         "answerOption": [ {
@@ -171,9 +177,11 @@
             "version": "1.0",
             "code": "anamnesis.chronicLungDiseases.pulmonaryHypertension"
           }
+        }, {
+          "url": "https://num-compass.science/fhir/StructureDefinition/GeccoTargetProfile",
+          "valueString": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/chronic-lung-diseases"
         } ],
         "linkId": "1.2.4",
-        "definition": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/chronic-lung-diseases",
         "text": "Lungenhochdruck/pulmonale Hypertonie",
         "type": "choice",
         "answerOption": [ {
@@ -203,9 +211,11 @@
             "version": "1.0",
             "code": "anamnesis.chronicLungDiseases.ohs"
           }
+        }, {
+          "url": "https://num-compass.science/fhir/StructureDefinition/GeccoTargetProfile",
+          "valueString": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/chronic-lung-diseases"
         } ],
         "linkId": "1.2.5",
-        "definition": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/chronic-lung-diseases",
         "text": "OHS",
         "type": "choice",
         "answerOption": [ {
@@ -235,9 +245,11 @@
             "version": "1.0",
             "code": "anamnesis.chronicLungDiseases.sleepApnea"
           }
+        }, {
+          "url": "https://num-compass.science/fhir/StructureDefinition/GeccoTargetProfile",
+          "valueString": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/chronic-lung-diseases"
         } ],
         "linkId": "1.2.6",
-        "definition": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/chronic-lung-diseases",
         "text": "Schlafapnoe",
         "type": "choice",
         "answerOption": [ {
@@ -267,9 +279,11 @@
             "version": "1.0",
             "code": "anamnesis.chronicLungDiseases.osas"
           }
+        }, {
+          "url": "https://num-compass.science/fhir/StructureDefinition/GeccoTargetProfile",
+          "valueString": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/chronic-lung-diseases"
         } ],
         "linkId": "1.2.7",
-        "definition": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/chronic-lung-diseases",
         "text": "OSAS",
         "type": "choice",
         "answerOption": [ {
@@ -299,9 +313,11 @@
             "version": "1.0",
             "code": "anamnesis.chronicLungDiseases.cysticFibrosis"
           }
+        }, {
+          "url": "https://num-compass.science/fhir/StructureDefinition/GeccoTargetProfile",
+          "valueString": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/chronic-lung-diseases"
         } ],
         "linkId": "1.2.8",
-        "definition": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/chronic-lung-diseases",
         "text": "Cystische Fibrose",
         "type": "choice",
         "answerOption": [ {
@@ -330,7 +346,7 @@
         "valueCoding": {
           "system": "https://num-compass.science/fhir/CodeSystem/CompassGeccoItem",
           "version": "1.0",
-          "code": "anamnesis.hasCardiavascularDiseases"
+          "code": "anamnesis.hasCardiovascularDiseases"
         }
       } ],
       "linkId": "1.3",
@@ -384,9 +400,11 @@
             "version": "1.0",
             "code": "anamnesis.cardiovascularDiseases.arterialHyptertension"
           }
+        }, {
+          "url": "https://num-compass.science/fhir/StructureDefinition/GeccoTargetProfile",
+          "valueString": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/cardiovascular-diseases"
         } ],
         "linkId": "1.4.1",
-        "definition": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/cardiovascular-diseases",
         "text": "Bluthochdruck",
         "type": "choice",
         "answerOption": [ {
@@ -416,9 +434,11 @@
             "version": "1.0",
             "code": "anamnesis.cardiovascularDiseases.stateAfterHeartAttack"
           }
+        }, {
+          "url": "https://num-compass.science/fhir/StructureDefinition/GeccoTargetProfile",
+          "valueString": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/cardiovascular-diseases"
         } ],
         "linkId": "1.4.2",
-        "definition": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/cardiovascular-diseases",
         "text": "Zustand nach Herzinfarkt",
         "type": "choice",
         "answerOption": [ {
@@ -448,9 +468,11 @@
             "version": "1.0",
             "code": "anamnesis.cardiovascularDiseases.cardiacArrhytmia"
           }
+        }, {
+          "url": "https://num-compass.science/fhir/StructureDefinition/GeccoTargetProfile",
+          "valueString": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/cardiovascular-diseases"
         } ],
         "linkId": "1.4.3",
-        "definition": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/cardiovascular-diseases",
         "text": "Herzrhythmusstörungen",
         "type": "choice",
         "answerOption": [ {
@@ -480,9 +502,11 @@
             "version": "1.0",
             "code": "anamnesis.cardiovascularDiseases.heartFailure"
           }
+        }, {
+          "url": "https://num-compass.science/fhir/StructureDefinition/GeccoTargetProfile",
+          "valueString": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/cardiovascular-diseases"
         } ],
         "linkId": "1.4.4",
-        "definition": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/cardiovascular-diseases",
         "text": "Herzinsuffizienz",
         "type": "choice",
         "answerOption": [ {
@@ -512,9 +536,11 @@
             "version": "1.0",
             "code": "anamnesis.cardiovascularDiseases.peripherialArterialOcclusiveDisease"
           }
+        }, {
+          "url": "https://num-compass.science/fhir/StructureDefinition/GeccoTargetProfile",
+          "valueString": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/cardiovascular-diseases"
         } ],
         "linkId": "1.4.5",
-        "definition": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/cardiovascular-diseases",
         "text": "pAVK",
         "type": "choice",
         "answerOption": [ {
@@ -544,9 +570,11 @@
             "version": "1.0",
             "code": "anamnesis.cardiovascularDiseases.stateAfterRevascularization"
           }
+        }, {
+          "url": "https://num-compass.science/fhir/StructureDefinition/GeccoTargetProfile",
+          "valueString": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/cardiovascular-diseases"
         } ],
         "linkId": "1.4.6",
-        "definition": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/cardiovascular-diseases",
         "text": "Zustand nach Revaskularisation",
         "type": "choice",
         "answerOption": [ {
@@ -576,9 +604,11 @@
             "version": "1.0",
             "code": "anamnesis.cardiovascularDiseases.coronaryArteriosclerosis"
           }
+        }, {
+          "url": "https://num-compass.science/fhir/StructureDefinition/GeccoTargetProfile",
+          "valueString": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/cardiovascular-diseases"
         } ],
         "linkId": "1.4.7",
-        "definition": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/cardiovascular-diseases",
         "text": "Koronare Herzerkrankung (KHK)",
         "type": "choice",
         "answerOption": [ {
@@ -608,9 +638,11 @@
             "version": "1.0",
             "code": "anamnesis.cardiovascularDiseases.carotidArteryStenosis"
           }
+        }, {
+          "url": "https://num-compass.science/fhir/StructureDefinition/GeccoTargetProfile",
+          "valueString": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/cardiovascular-diseases"
         } ],
         "linkId": "1.4.8",
-        "definition": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/cardiovascular-diseases",
         "text": "Carotisstenose",
         "type": "choice",
         "answerOption": [ {
@@ -693,9 +725,11 @@
             "version": "1.0",
             "code": "anamnesis.chronicLiverDiseases.steatosisOfLiver"
           }
+        }, {
+          "url": "https://num-compass.science/fhir/StructureDefinition/GeccoTargetProfile",
+          "valueString": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/chronic-liver-diseases"
         } ],
         "linkId": "1.6.1",
-        "definition": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/chronic-liver-diseases",
         "text": "Fettleber",
         "type": "choice",
         "answerOption": [ {
@@ -725,9 +759,11 @@
             "version": "1.0",
             "code": "anamnesis.chronicLiverDiseases.cirrhosisOfLiver"
           }
+        }, {
+          "url": "https://num-compass.science/fhir/StructureDefinition/GeccoTargetProfile",
+          "valueString": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/chronic-liver-diseases"
         } ],
         "linkId": "1.6.2",
-        "definition": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/chronic-liver-diseases",
         "text": "Leberzirrhose",
         "type": "choice",
         "answerOption": [ {
@@ -757,9 +793,11 @@
             "version": "1.0",
             "code": "anamnesis.chronicLiverDiseases.chronicViralHepatitis"
           }
+        }, {
+          "url": "https://num-compass.science/fhir/StructureDefinition/GeccoTargetProfile",
+          "valueString": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/chronic-liver-diseases"
         } ],
         "linkId": "1.6.3",
-        "definition": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/chronic-liver-diseases",
         "text": "Chronische infektiöse Hepatitis",
         "type": "choice",
         "answerOption": [ {
@@ -789,9 +827,11 @@
             "version": "1.0",
             "code": "anamnesis.chronicLiverDiseases.autoimmuneLiverDisease"
           }
+        }, {
+          "url": "https://num-compass.science/fhir/StructureDefinition/GeccoTargetProfile",
+          "valueString": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/chronic-liver-diseases"
         } ],
         "linkId": "1.6.4",
-        "definition": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/chronic-liver-diseases",
         "text": "Autoimmune Lebererkrankungen",
         "type": "choice",
         "answerOption": [ {
@@ -874,9 +914,11 @@
             "version": "1.0",
             "code": "anamnesis.rheumatologicalImmunologicalDiseases.inflammatoryBowelDisease"
           }
+        }, {
+          "url": "https://num-compass.science/fhir/StructureDefinition/GeccoTargetProfile",
+          "valueString": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/rheumatological-immunological-diseases"
         } ],
         "linkId": "1.8.1",
-        "definition": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/rheumatological-immunological-diseases",
         "text": "Chronisch entzündl. Darmerkrankung",
         "type": "choice",
         "answerOption": [ {
@@ -906,9 +948,11 @@
             "version": "1.0",
             "code": "anamnesis.rheumatologicalImmunologicalDiseases.rheumatoidArthritis"
           }
+        }, {
+          "url": "https://num-compass.science/fhir/StructureDefinition/GeccoTargetProfile",
+          "valueString": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/rheumatological-immunological-diseases"
         } ],
         "linkId": "1.8.2",
-        "definition": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/rheumatological-immunological-diseases",
         "text": "Rheumatoide Arthritis",
         "type": "choice",
         "answerOption": [ {
@@ -938,9 +982,11 @@
             "version": "1.0",
             "code": "anamnesis.rheumatologicalImmunologicalDiseases.collagenosis"
           }
+        }, {
+          "url": "https://num-compass.science/fhir/StructureDefinition/GeccoTargetProfile",
+          "valueString": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/rheumatological-immunological-diseases"
         } ],
         "linkId": "1.8.3",
-        "definition": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/rheumatological-immunological-diseases",
         "text": "Kollagenosen",
         "type": "choice",
         "answerOption": [ {
@@ -970,9 +1016,11 @@
             "version": "1.0",
             "code": "anamnesis.rheumatologicalImmunologicalDiseases.vasculitis"
           }
+        }, {
+          "url": "https://num-compass.science/fhir/StructureDefinition/GeccoTargetProfile",
+          "valueString": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/rheumatological-immunological-diseases"
         } ],
         "linkId": "1.8.4",
-        "definition": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/rheumatological-immunological-diseases",
         "text": "Vaskulitiden",
         "type": "choice",
         "answerOption": [ {
@@ -1002,9 +1050,11 @@
             "version": "1.0",
             "code": "anamnesis.rheumatologicalImmunologicalDiseases.congenitalImmunodeficiencyDisease"
           }
+        }, {
+          "url": "https://num-compass.science/fhir/StructureDefinition/GeccoTargetProfile",
+          "valueString": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/rheumatological-immunological-diseases"
         } ],
         "linkId": "1.8.5",
-        "definition": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/rheumatological-immunological-diseases",
         "text": "angeborene Immundefekte",
         "type": "choice",
         "answerOption": [ {
@@ -1035,9 +1085,11 @@
           "version": "1.0",
           "code": "anamnesis.hasHivInfection"
         }
+      }, {
+        "url": "https://num-compass.science/fhir/StructureDefinition/GeccoTargetProfile",
+        "valueString": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/human-immunodeficiency-virus-infection"
       } ],
       "linkId": "1.9",
-      "definition": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/human-immunodeficiency-virus-infection",
       "text": "Ist der/die Patient*in HIV-infiziert?",
       "type": "choice",
       "answerOption": [ {
@@ -1119,9 +1171,11 @@
             "version": "1.0",
             "code": "anamnesis.historyOfBeingATissueOrOrganRecipient.entireHeart"
           }
+        }, {
+          "url": "https://num-compass.science/fhir/StructureDefinition/GeccoTargetProfile",
+          "valueString": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/organ-recipient"
         } ],
         "linkId": "1.11.1",
-        "definition": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/organ-recipient",
         "text": "Herz",
         "type": "choice",
         "answerOption": [ {
@@ -1151,9 +1205,11 @@
             "version": "1.0",
             "code": "anamnesis.historyOfBeingATissueOrOrganRecipient.entireLung"
           }
+        }, {
+          "url": "https://num-compass.science/fhir/StructureDefinition/GeccoTargetProfile",
+          "valueString": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/organ-recipient"
         } ],
         "linkId": "1.11.2",
-        "definition": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/organ-recipient",
         "text": "Lunge",
         "type": "choice",
         "answerOption": [ {
@@ -1183,9 +1239,11 @@
             "version": "1.0",
             "code": "anamnesis.historyOfBeingATissueOrOrganRecipient.entireLiver"
           }
+        }, {
+          "url": "https://num-compass.science/fhir/StructureDefinition/GeccoTargetProfile",
+          "valueString": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/organ-recipient"
         } ],
         "linkId": "1.11.3",
-        "definition": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/organ-recipient",
         "text": "Leber",
         "type": "choice",
         "answerOption": [ {
@@ -1215,9 +1273,11 @@
             "version": "1.0",
             "code": "anamnesis.historyOfBeingATissueOrOrganRecipient.entireKidney"
           }
+        }, {
+          "url": "https://num-compass.science/fhir/StructureDefinition/GeccoTargetProfile",
+          "valueString": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/organ-recipient"
         } ],
         "linkId": "1.11.4",
-        "definition": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/organ-recipient",
         "text": "Niere",
         "type": "choice",
         "answerOption": [ {
@@ -1247,9 +1307,11 @@
             "version": "1.0",
             "code": "anamnesis.historyOfBeingATissueOrOrganRecipient.entirePancreas"
           }
+        }, {
+          "url": "https://num-compass.science/fhir/StructureDefinition/GeccoTargetProfile",
+          "valueString": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/organ-recipient"
         } ],
         "linkId": "1.11.5",
-        "definition": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/organ-recipient",
         "text": "Bauchspeicheldrüse",
         "type": "choice",
         "answerOption": [ {
@@ -1279,9 +1341,11 @@
             "version": "1.0",
             "code": "anamnesis.historyOfBeingATissueOrOrganRecipient.intestinalStructure"
           }
+        }, {
+          "url": "https://num-compass.science/fhir/StructureDefinition/GeccoTargetProfile",
+          "valueString": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/organ-recipient"
         } ],
         "linkId": "1.11.6",
-        "definition": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/organ-recipient",
         "text": "Darmstruktur",
         "type": "choice",
         "answerOption": [ {
@@ -1311,9 +1375,11 @@
             "version": "1.0",
             "code": "anamnesis.historyOfBeingATissueOrOrganRecipient.entireSmallIntestine"
           }
+        }, {
+          "url": "https://num-compass.science/fhir/StructureDefinition/GeccoTargetProfile",
+          "valueString": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/organ-recipient"
         } ],
         "linkId": "1.11.7",
-        "definition": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/organ-recipient",
         "text": "gesamter Dünndarm",
         "type": "choice",
         "answerOption": [ {
@@ -1343,9 +1409,11 @@
             "version": "1.0",
             "code": "anamnesis.historyOfBeingATissueOrOrganRecipient.entireLargeIntestine"
           }
+        }, {
+          "url": "https://num-compass.science/fhir/StructureDefinition/GeccoTargetProfile",
+          "valueString": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/organ-recipient"
         } ],
         "linkId": "1.11.8",
-        "definition": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/organ-recipient",
         "text": "gesamter Dickdarm",
         "type": "choice",
         "answerOption": [ {
@@ -1375,9 +1443,11 @@
             "version": "1.0",
             "code": "anamnesis.historyOfBeingATissueOrOrganRecipient.skinPart"
           }
+        }, {
+          "url": "https://num-compass.science/fhir/StructureDefinition/GeccoTargetProfile",
+          "valueString": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/organ-recipient"
         } ],
         "linkId": "1.11.9",
-        "definition": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/organ-recipient",
         "text": "Haut",
         "type": "choice",
         "answerOption": [ {
@@ -1407,9 +1477,11 @@
             "version": "1.0",
             "code": "anamnesis.historyOfBeingATissueOrOrganRecipient.entireCornea"
           }
+        }, {
+          "url": "https://num-compass.science/fhir/StructureDefinition/GeccoTargetProfile",
+          "valueString": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/organ-recipient"
         } ],
         "linkId": "1.11.10",
-        "definition": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/organ-recipient",
         "text": "Hornhaut",
         "type": "choice",
         "answerOption": [ {
@@ -1439,9 +1511,11 @@
             "version": "1.0",
             "code": "anamnesis.historyOfBeingATissueOrOrganRecipient.earOssicleStructure"
           }
+        }, {
+          "url": "https://num-compass.science/fhir/StructureDefinition/GeccoTargetProfile",
+          "valueString": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/organ-recipient"
         } ],
         "linkId": "1.11.11",
-        "definition": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/organ-recipient",
         "text": "Gehörknöchelchen",
         "type": "choice",
         "answerOption": [ {
@@ -1471,9 +1545,11 @@
             "version": "1.0",
             "code": "anamnesis.historyOfBeingATissueOrOrganRecipient.entireHeartValve"
           }
+        }, {
+          "url": "https://num-compass.science/fhir/StructureDefinition/GeccoTargetProfile",
+          "valueString": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/organ-recipient"
         } ],
         "linkId": "1.11.12",
-        "definition": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/organ-recipient",
         "text": "Herzklappen",
         "type": "choice",
         "answerOption": [ {
@@ -1503,9 +1579,11 @@
             "version": "1.0",
             "code": "anamnesis.historyOfBeingATissueOrOrganRecipient.bloodVesselPart"
           }
+        }, {
+          "url": "https://num-compass.science/fhir/StructureDefinition/GeccoTargetProfile",
+          "valueString": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/organ-recipient"
         } ],
         "linkId": "1.11.13",
-        "definition": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/organ-recipient",
         "text": "Blutgefäß",
         "type": "choice",
         "answerOption": [ {
@@ -1535,9 +1613,11 @@
             "version": "1.0",
             "code": "anamnesis.historyOfBeingATissueOrOrganRecipient.cerebralMeningitisStructure"
           }
+        }, {
+          "url": "https://num-compass.science/fhir/StructureDefinition/GeccoTargetProfile",
+          "valueString": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/organ-recipient"
         } ],
         "linkId": "1.11.14",
-        "definition": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/organ-recipient",
         "text": "Hirnhaut",
         "type": "choice",
         "answerOption": [ {
@@ -1567,9 +1647,11 @@
             "version": "1.0",
             "code": "anamnesis.historyOfBeingATissueOrOrganRecipient.boneTissueOrStructure"
           }
+        }, {
+          "url": "https://num-compass.science/fhir/StructureDefinition/GeccoTargetProfile",
+          "valueString": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/organ-recipient"
         } ],
         "linkId": "1.11.15",
-        "definition": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/organ-recipient",
         "text": "Knochengewebe",
         "type": "choice",
         "answerOption": [ {
@@ -1599,9 +1681,11 @@
             "version": "1.0",
             "code": "anamnesis.historyOfBeingATissueOrOrganRecipient.cartilageTissue"
           }
+        }, {
+          "url": "https://num-compass.science/fhir/StructureDefinition/GeccoTargetProfile",
+          "valueString": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/organ-recipient"
         } ],
         "linkId": "1.11.16",
-        "definition": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/organ-recipient",
         "text": "Knorpelgewebe",
         "type": "choice",
         "answerOption": [ {
@@ -1631,9 +1715,11 @@
             "version": "1.0",
             "code": "anamnesis.historyOfBeingATissueOrOrganRecipient.tendonStructure"
           }
+        }, {
+          "url": "https://num-compass.science/fhir/StructureDefinition/GeccoTargetProfile",
+          "valueString": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/organ-recipient"
         } ],
         "linkId": "1.11.17",
-        "definition": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/organ-recipient",
         "text": "Sehne",
         "type": "choice",
         "answerOption": [ {
@@ -1778,6 +1864,9 @@
           "version": "1.0",
           "code": "anamnesis.tobaccoSmokingStatus"
         }
+      }, {
+        "url": "https://num-compass.science/fhir/StructureDefinition/GeccoTargetProfile",
+        "valueString": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/smoking-status"
       } ],
       "linkId": "1.15",
       "text": "Hat der/die Patient*in jemals Zigaretten geraucht?",
@@ -1867,9 +1956,11 @@
             "version": "1.0",
             "code": "anamnesis.chronicNeurologicalOrMentalDiseases.anxietyDisorder"
           }
+        }, {
+          "url": "https://num-compass.science/fhir/StructureDefinition/GeccoTargetProfile",
+          "valueString": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/chronic-neurological-mental-diseases"
         } ],
         "linkId": "1.17.1",
-        "definition": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/chronic-neurological-mental-diseases",
         "text": "Angsterkrankung",
         "type": "choice",
         "answerOption": [ {
@@ -1899,9 +1990,11 @@
             "version": "1.0",
             "code": "anamnesis.chronicNeurologicalOrMentalDiseases.depressiveDisorder"
           }
+        }, {
+          "url": "https://num-compass.science/fhir/StructureDefinition/GeccoTargetProfile",
+          "valueString": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/chronic-neurological-mental-diseases"
         } ],
         "linkId": "1.17.2",
-        "definition": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/chronic-neurological-mental-diseases",
         "text": "Depression",
         "type": "choice",
         "answerOption": [ {
@@ -1931,9 +2024,11 @@
             "version": "1.0",
             "code": "anamnesis.chronicNeurologicalOrMentalDiseases.psychoticDisorder"
           }
+        }, {
+          "url": "https://num-compass.science/fhir/StructureDefinition/GeccoTargetProfile",
+          "valueString": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/chronic-neurological-mental-diseases"
         } ],
         "linkId": "1.17.3",
-        "definition": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/chronic-neurological-mental-diseases",
         "text": "Psychose",
         "type": "choice",
         "answerOption": [ {
@@ -1963,9 +2058,11 @@
             "version": "1.0",
             "code": "anamnesis.chronicNeurologicalOrMentalDiseases.parkinsonDisorder"
           }
+        }, {
+          "url": "https://num-compass.science/fhir/StructureDefinition/GeccoTargetProfile",
+          "valueString": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/chronic-neurological-mental-diseases"
         } ],
         "linkId": "1.17.4",
-        "definition": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/chronic-neurological-mental-diseases",
         "text": "M. Parkinson",
         "type": "choice",
         "answerOption": [ {
@@ -1995,9 +2092,11 @@
             "version": "1.0",
             "code": "anamnesis.chronicNeurologicalOrMentalDiseases.dementia"
           }
+        }, {
+          "url": "https://num-compass.science/fhir/StructureDefinition/GeccoTargetProfile",
+          "valueString": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/chronic-neurological-mental-diseases"
         } ],
         "linkId": "1.17.5",
-        "definition": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/chronic-neurological-mental-diseases",
         "text": "Demenz",
         "type": "choice",
         "answerOption": [ {
@@ -2027,9 +2126,11 @@
             "version": "1.0",
             "code": "anamnesis.chronicNeurologicalOrMentalDiseases.multipleSclerosis"
           }
+        }, {
+          "url": "https://num-compass.science/fhir/StructureDefinition/GeccoTargetProfile",
+          "valueString": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/chronic-neurological-mental-diseases"
         } ],
         "linkId": "1.17.6",
-        "definition": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/chronic-neurological-mental-diseases",
         "text": "Multiple Sklerose",
         "type": "choice",
         "answerOption": [ {
@@ -2059,9 +2160,11 @@
             "version": "1.0",
             "code": "anamnesis.chronicNeurologicalOrMentalDiseases.combinedDisorderOfMuscleAndPeripheralNerve"
           }
+        }, {
+          "url": "https://num-compass.science/fhir/StructureDefinition/GeccoTargetProfile",
+          "valueString": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/chronic-neurological-mental-diseases"
         } ],
         "linkId": "1.17.7",
-        "definition": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/chronic-neurological-mental-diseases",
         "text": "Neuromuskuläre Erkrankungen",
         "type": "choice",
         "answerOption": [ {
@@ -2091,9 +2194,11 @@
             "version": "1.0",
             "code": "anamnesis.chronicNeurologicalOrMentalDiseases.epilepsy"
           }
+        }, {
+          "url": "https://num-compass.science/fhir/StructureDefinition/GeccoTargetProfile",
+          "valueString": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/chronic-neurological-mental-diseases"
         } ],
         "linkId": "1.17.8",
-        "definition": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/chronic-neurological-mental-diseases",
         "text": "Epilepsie",
         "type": "choice",
         "answerOption": [ {
@@ -2123,9 +2228,11 @@
             "version": "1.0",
             "code": "anamnesis.chronicNeurologicalOrMentalDiseases.migraine"
           }
+        }, {
+          "url": "https://num-compass.science/fhir/StructureDefinition/GeccoTargetProfile",
+          "valueString": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/chronic-neurological-mental-diseases"
         } ],
         "linkId": "1.17.9",
-        "definition": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/chronic-neurological-mental-diseases",
         "text": "Migräne",
         "type": "choice",
         "answerOption": [ {
@@ -2155,9 +2262,11 @@
             "version": "1.0",
             "code": "anamnesis.chronicNeurologicalOrMentalDiseases.historyOfCerebrovascularAccidentWithResidualDeficit"
           }
+        }, {
+          "url": "https://num-compass.science/fhir/StructureDefinition/GeccoTargetProfile",
+          "valueString": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/chronic-neurological-mental-diseases"
         } ],
         "linkId": "1.17.10",
-        "definition": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/chronic-neurological-mental-diseases",
         "text": "Z.n. Apoplex mit Residuen",
         "type": "choice",
         "answerOption": [ {
@@ -2187,9 +2296,11 @@
             "version": "1.0",
             "code": "anamnesis.chronicNeurologicalOrMentalDiseases.historyOfCerebrovascularAccidentWithoutResidualDeficits"
           }
+        }, {
+          "url": "https://num-compass.science/fhir/StructureDefinition/GeccoTargetProfile",
+          "valueString": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/chronic-neurological-mental-diseases"
         } ],
         "linkId": "1.17.11",
-        "definition": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/chronic-neurological-mental-diseases",
         "text": "Z.n. Apoplex ohne Residuen",
         "type": "choice",
         "answerOption": [ {
@@ -2220,9 +2331,11 @@
           "version": "1.0",
           "code": "anamnesis.hasHadOxygenOrRespiratoryTherapyBeforeCurrentIllness"
         }
+      }, {
+        "url": "https://num-compass.science/fhir/StructureDefinition/GeccoTargetProfile",
+        "valueString": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/respiratory-therapies"
       } ],
       "linkId": "1.18",
-      "definition": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/respiratory-therapies",
       "text": "Bestand bereits vor der aktuellen Erkrankung eine Sauerstoff- oder Beatmungstherapie?",
       "type": "choice",
       "answerOption": [ {
@@ -2252,6 +2365,9 @@
           "version": "1.0",
           "code": "anamnesis.chronicKidneyDisease"
         }
+      }, {
+        "url": "https://num-compass.science/fhir/StructureDefinition/GeccoTargetProfile",
+        "valueString": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/chronic-kidney-diseases"
       } ],
       "linkId": "1.19",
       "text": "Leidet der/die Patient*in an einer chronischen Nierenerkrankung?",
@@ -2404,6 +2520,9 @@
               "display": "Drop down"
             } ]
           }
+        }, {
+          "url": "https://num-compass.science/fhir/StructureDefinition/GeccoTargetProfile",
+          "valueString": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/history-of-travel"
         } ],
         "linkId": "1.21.3",
         "text": "Land",
@@ -3920,6 +4039,9 @@
               "display": "Drop down"
             } ]
           }
+        }, {
+          "url": "https://num-compass.science/fhir/StructureDefinition/GeccoTargetProfile",
+          "valueString": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/history-of-travel"
         } ],
         "linkId": "1.21.4",
         "text": "Bundesland",
@@ -4050,9 +4172,11 @@
           "version": "1.0",
           "code": "anamnesis.hasGastrointestinalUclers"
         }
+      }, {
+        "url": "https://num-compass.science/fhir/StructureDefinition/GeccoTargetProfile",
+        "valueString": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/gastrointestinal-ulcers"
       } ],
       "linkId": "1.22",
-      "definition": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/gastrointestinal-ulcers",
       "text": "Leidet der/die Patient*in an Magengeschwüren?",
       "type": "choice",
       "answerOption": [ {
@@ -4094,9 +4218,11 @@
             "version": "1.0",
             "code": "anamnesis.immunizationStatus.influenza"
           }
+        }, {
+          "url": "https://num-compass.science/fhir/StructureDefinition/GeccoTargetProfile",
+          "valueString": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/immunization"
         } ],
         "linkId": "1.23.1",
-        "definition": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/immunization",
         "text": "Influenza",
         "type": "group",
         "item": [ {
@@ -4159,9 +4285,11 @@
             "version": "1.0",
             "code": "anamnesis.immunizationStatus.pneumococcal"
           }
+        }, {
+          "url": "https://num-compass.science/fhir/StructureDefinition/GeccoTargetProfile",
+          "valueString": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/immunization"
         } ],
         "linkId": "1.23.2",
-        "definition": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/immunization",
         "text": "Pneumokokken",
         "type": "group",
         "item": [ {
@@ -4224,9 +4352,11 @@
             "version": "1.0",
             "code": "anamnesis.immunizationStatus.bcg"
           }
+        }, {
+          "url": "https://num-compass.science/fhir/StructureDefinition/GeccoTargetProfile",
+          "valueString": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/immunization"
         } ],
         "linkId": "1.23.3",
-        "definition": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/immunization",
         "text": "BCG",
         "type": "group",
         "item": [ {
@@ -4587,6 +4717,9 @@
           "version": "1.0",
           "code": "anamnesis.resuscitateOrder"
         }
+      }, {
+        "url": "https://num-compass.science/fhir/StructureDefinition/GeccoTargetProfile",
+        "valueString": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/do-not-resuscitate-order"
       } ],
       "linkId": "1.24",
       "text": "Falls Informationen zum DNR-Status vorliegen: Möchte der/die Patient*innen wiederbelebt werden?",
@@ -4617,243 +4750,10 @@
       "valueCoding": {
         "system": "https://num-compass.science/fhir/CodeSystem/CompassGeccoItem",
         "version": "1.0",
-        "code": "imaging"
-      }
-    } ],
-    "linkId": "2",
-    "text": "Bildgebung",
-    "type": "group",
-    "item": [ {
-      "extension": [ {
-        "url": "https://num-compass.science/fhir/StructureDefinition/CompassGeccoItem",
-        "valueCoding": {
-          "system": "https://num-compass.science/fhir/CodeSystem/CompassGeccoItem",
-          "version": "1.0",
-          "code": "imaging.hasHadImagingProcedures"
-        }
-      } ],
-      "linkId": "2.1",
-      "text": "Wurden Bildgebungsverfahren der Lunge im Rahmen von Covid-19 durchgeführt (CT,Röntgen,Ultrashall)? ",
-      "type": "choice",
-      "answerOption": [ {
-        "valueCoding": {
-          "system": "http://terminology.hl7.org/CodeSystem/v2-0136",
-          "code": "Y",
-          "display": "Ja"
-        }
-      }, {
-        "valueCoding": {
-          "system": "http://terminology.hl7.org/CodeSystem/v2-0136",
-          "code": "N",
-          "display": "Nein"
-        }
-      }, {
-        "valueCoding": {
-          "system": "http://terminology.hl7.org/CodeSystem/data-absent-reason",
-          "code": "asked-unknown",
-          "display": "Unbekannt"
-        }
-      } ]
-    }, {
-      "extension": [ {
-        "url": "https://num-compass.science/fhir/StructureDefinition/CompassGeccoItem",
-        "valueCoding": {
-          "system": "https://num-compass.science/fhir/CodeSystem/CompassGeccoItem",
-          "version": "1.0",
-          "code": "imaging.imagingProcedures"
-        }
-      } ],
-      "linkId": "2.2",
-      "text": "Welche Bildgebungsverfahren wurden durchgeführt?",
-      "type": "group",
-      "enableWhen": [ {
-        "question": "2.1",
-        "operator": "=",
-        "answerCoding": {
-          "system": "http://terminology.hl7.org/CodeSystem/v2-0136",
-          "code": "Y",
-          "display": "Ja"
-        }
-      } ],
-      "item": [ {
-        "extension": [ {
-          "url": "https://num-compass.science/fhir/StructureDefinition/CompassGeccoItem",
-          "valueCoding": {
-            "system": "https://num-compass.science/fhir/CodeSystem/CompassGeccoItem",
-            "version": "1.0",
-            "code": "imaging.imagingProcedures.computedTomography"
-          }
-        } ],
-        "linkId": "2.2.1",
-        "definition": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/radiology-procedures",
-        "text": "Computertomographie",
-        "type": "choice",
-        "answerOption": [ {
-          "valueCoding": {
-            "system": "http://terminology.hl7.org/CodeSystem/v2-0136",
-            "code": "Y",
-            "display": "Ja"
-          }
-        }, {
-          "valueCoding": {
-            "system": "http://terminology.hl7.org/CodeSystem/v2-0136",
-            "code": "N",
-            "display": "Nein"
-          }
-        }, {
-          "valueCoding": {
-            "system": "http://terminology.hl7.org/CodeSystem/data-absent-reason",
-            "code": "asked-unknown",
-            "display": "Unbekannt"
-          }
-        } ]
-      }, {
-        "extension": [ {
-          "url": "https://num-compass.science/fhir/StructureDefinition/CompassGeccoItem",
-          "valueCoding": {
-            "system": "https://num-compass.science/fhir/CodeSystem/CompassGeccoItem",
-            "version": "1.0",
-            "code": "imaging.imagingProcedures.radiographicImaging"
-          }
-        } ],
-        "linkId": "2.2.2",
-        "definition": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/radiology-procedures",
-        "text": "Röntgen",
-        "type": "choice",
-        "answerOption": [ {
-          "valueCoding": {
-            "system": "http://terminology.hl7.org/CodeSystem/v2-0136",
-            "code": "Y",
-            "display": "Ja"
-          }
-        }, {
-          "valueCoding": {
-            "system": "http://terminology.hl7.org/CodeSystem/v2-0136",
-            "code": "N",
-            "display": "Nein"
-          }
-        }, {
-          "valueCoding": {
-            "system": "http://terminology.hl7.org/CodeSystem/data-absent-reason",
-            "code": "asked-unknown",
-            "display": "Unbekannt"
-          }
-        } ]
-      }, {
-        "extension": [ {
-          "url": "https://num-compass.science/fhir/StructureDefinition/CompassGeccoItem",
-          "valueCoding": {
-            "system": "https://num-compass.science/fhir/CodeSystem/CompassGeccoItem",
-            "version": "1.0",
-            "code": "imaging.imagingProcedures.ultrasound"
-          }
-        } ],
-        "linkId": "2.2.3",
-        "definition": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/radiology-procedures",
-        "text": "Ultraschall",
-        "type": "choice",
-        "answerOption": [ {
-          "valueCoding": {
-            "system": "http://terminology.hl7.org/CodeSystem/v2-0136",
-            "code": "Y",
-            "display": "Ja"
-          }
-        }, {
-          "valueCoding": {
-            "system": "http://terminology.hl7.org/CodeSystem/v2-0136",
-            "code": "N",
-            "display": "Nein"
-          }
-        }, {
-          "valueCoding": {
-            "system": "http://terminology.hl7.org/CodeSystem/data-absent-reason",
-            "code": "asked-unknown",
-            "display": "Unbekannt"
-          }
-        } ]
-      } ]
-    }, {
-      "extension": [ {
-        "url": "https://num-compass.science/fhir/StructureDefinition/CompassGeccoItem",
-        "valueCoding": {
-          "system": "https://num-compass.science/fhir/CodeSystem/CompassGeccoItem",
-          "version": "1.0",
-          "code": "imaging.hasRadiologicalFindings"
-        }
-      } ],
-      "linkId": "2.3",
-      "text": "Liegt ein Befund bildgebender Verfahren im Rahmen von Covid-19 vor?",
-      "type": "choice",
-      "answerOption": [ {
-        "valueCoding": {
-          "system": "http://terminology.hl7.org/CodeSystem/v2-0136",
-          "code": "Y",
-          "display": "Ja"
-        }
-      }, {
-        "valueCoding": {
-          "system": "http://terminology.hl7.org/CodeSystem/v2-0136",
-          "code": "N",
-          "display": "Nein"
-        }
-      }, {
-        "valueCoding": {
-          "system": "http://terminology.hl7.org/CodeSystem/data-absent-reason",
-          "code": "asked-unknown",
-          "display": "Unbekannt"
-        }
-      } ]
-    }, {
-      "extension": [ {
-        "url": "https://num-compass.science/fhir/StructureDefinition/CompassGeccoItem",
-        "valueCoding": {
-          "system": "https://num-compass.science/fhir/CodeSystem/CompassGeccoItem",
-          "version": "1.0",
-          "code": "imaging.radiologicalFindings"
-        }
-      } ],
-      "linkId": "2.4",
-      "text": "Befund bildgebender Verfahren im Rahmen von Covid-19 (CT,Röntgen,Ultrashall)",
-      "type": "choice",
-      "enableWhen": [ {
-        "question": "2.3",
-        "operator": "=",
-        "answerCoding": {
-          "system": "http://terminology.hl7.org/CodeSystem/v2-0136",
-          "code": "Y",
-          "display": "Ja"
-        }
-      } ],
-      "answerOption": [ {
-        "valueCoding": {
-          "system": "http://snomed.info/sct",
-          "code": "118247008:363713009=373068000",
-          "display": "|Radiologic finding (finding)|:|Has interpretation (attribute)|=|Undetermined (qualifier value)|"
-        }
-      }, {
-        "valueCoding": {
-          "system": "http://snomed.info/sct",
-          "code": "118247008:{363713009=263654008,42752001=840539006}",
-          "display": "|Radiologic finding (finding)|:{|Has interpretation (attribute)|=|Abnormal (qualifier value)|,|Due to (attribute)|=|Disease caused by severe acute respiratory syndrome coronavirus 2 (disorder)|}"
-        }
-      }, {
-        "valueCoding": {
-          "system": "http://snomed.info/sct",
-          "code": "118247008:363713009=17621005",
-          "display": "|Radiologic finding (finding)|:|Has interpretation (attribute)|=|Normal (qualifier value)|"
-        }
-      } ]
-    } ]
-  }, {
-    "extension": [ {
-      "url": "https://num-compass.science/fhir/StructureDefinition/CompassGeccoItem",
-      "valueCoding": {
-        "system": "https://num-compass.science/fhir/CodeSystem/CompassGeccoItem",
-        "version": "1.0",
         "code": "demographics"
       }
     } ],
-    "linkId": "3",
+    "linkId": "2",
     "text": "Demographie",
     "type": "group",
     "item": [ {
@@ -4864,8 +4764,11 @@
           "version": "1.0",
           "code": "demographics.biologicalSex"
         }
+      }, {
+        "url": "https://num-compass.science/fhir/StructureDefinition/GeccoTargetProfile",
+        "valueString": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/sex-assigned-at-birth"
       } ],
-      "linkId": "3.1",
+      "linkId": "2.1",
       "text": "Biologisches Geschlecht",
       "type": "choice",
       "answerOption": [ {
@@ -4907,12 +4810,15 @@
           "version": "1.0",
           "code": "demographics.pregnancyStatus"
         }
+      }, {
+        "url": "https://num-compass.science/fhir/StructureDefinition/GeccoTargetProfile",
+        "valueString": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/pregnancy-status"
       } ],
-      "linkId": "3.2",
+      "linkId": "2.2",
       "text": "Liegt eine Schwangerschaft vor?",
       "type": "choice",
       "enableWhen": [ {
-        "question": "3.1",
+        "question": "2.1",
         "operator": "=",
         "answerCoding": {
           "system": "http://hl7.org/fhir/administrative-gender",
@@ -4946,8 +4852,11 @@
           "version": "1.0",
           "code": "demographics.ethnicGroup"
         }
+      }, {
+        "url": "https://num-compass.science/fhir/StructureDefinition/GeccoTargetProfile",
+        "valueString": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/ethnic-group"
       } ],
-      "linkId": "3.3",
+      "linkId": "2.3",
       "text": "ethnische Zugehörigkeit",
       "type": "choice",
       "answerOption": [ {
@@ -4996,7 +4905,7 @@
           "code": "demographics.dateOfBirth"
         }
       } ],
-      "linkId": "3.4",
+      "linkId": "2.4",
       "text": "Geburtsdatum",
       "type": "date"
     }, {
@@ -5008,7 +4917,7 @@
           "code": "demographics.ageInYears"
         }
       } ],
-      "linkId": "3.5",
+      "linkId": "2.5",
       "text": "Alter bei Studieneinschluss in Jahren",
       "type": "integer"
     }, {
@@ -5020,7 +4929,7 @@
           "code": "demographics.ageInMonth"
         }
       } ],
-      "linkId": "3.6",
+      "linkId": "2.6",
       "text": "Alter bei Studieneinschluss in Monaten",
       "type": "integer"
     }, {
@@ -5031,8 +4940,11 @@
           "version": "1.0",
           "code": "demographics.frailityScore"
         }
+      }, {
+        "url": "https://num-compass.science/fhir/StructureDefinition/GeccoTargetProfile",
+        "valueString": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/frailty-score"
       } ],
-      "linkId": "3.7",
+      "linkId": "2.7",
       "text": "Frailty-Score vor Aufnahme",
       "type": "choice",
       "answerOption": [ {
@@ -5099,7 +5011,7 @@
           "code": "demographics.bodyWeight"
         }
       } ],
-      "linkId": "3.8",
+      "linkId": "2.8",
       "text": "Körpergewicht in kg",
       "type": "decimal"
     }, {
@@ -5111,7 +5023,7 @@
           "code": "demographics.bodyHeight"
         }
       } ],
-      "linkId": "3.9",
+      "linkId": "2.9",
       "text": "Körpergröße in cm",
       "type": "decimal"
     } ]
@@ -5124,7 +5036,7 @@
         "code": "epidemiologicalFactors"
       }
     } ],
-    "linkId": "4",
+    "linkId": "3",
     "text": "Epidemiologische Faktoren",
     "type": "group",
     "item": [ {
@@ -5135,9 +5047,11 @@
           "version": "1.0",
           "code": "epidemiologicalFactors.knownCovid19Exposure"
         }
+      }, {
+        "url": "https://num-compass.science/fhir/StructureDefinition/GeccoTargetProfile",
+        "valueString": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/known-exposure"
       } ],
-      "linkId": "4.1",
-      "definition": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/known-exposure",
+      "linkId": "3.1",
       "text": "Hatte der/die Patient*in in den letzten 14 Tagen vor Beginn seiner/ihrer Beschwerden wissentlich Kontakt mit einer wahrscheinlich oder nachgewiesenermaßen an COVID-19 erkrankten Person?",
       "type": "choice",
       "answerOption": [ {
@@ -5169,7 +5083,7 @@
         "code": "complications"
       }
     } ],
-    "linkId": "5",
+    "linkId": "4",
     "text": "Komplikationen",
     "type": "group",
     "item": [ {
@@ -5180,9 +5094,11 @@
           "version": "1.0",
           "code": "complications.hasHadThromboembolicComplications"
         }
+      }, {
+        "url": "https://num-compass.science/fhir/StructureDefinition/GeccoTargetProfile",
+        "valueString": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/complications-covid-19"
       } ],
-      "linkId": "5.1",
-      "definition": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/complications-covid-19",
+      "linkId": "4.1",
       "text": "Thrombembolische Ereignisse",
       "type": "choice",
       "answerOption": [ {
@@ -5213,11 +5129,11 @@
           "code": "complications.thromboembolicComplications"
         }
       } ],
-      "linkId": "5.2",
+      "linkId": "4.2",
       "text": "Welche?",
       "type": "group",
       "enableWhen": [ {
-        "question": "5.1",
+        "question": "4.1",
         "operator": "=",
         "answerCoding": {
           "system": "http://terminology.hl7.org/CodeSystem/v2-0136",
@@ -5234,7 +5150,7 @@
             "code": "complications.thromboembolicComplications.embolism"
           }
         } ],
-        "linkId": "5.2.1",
+        "linkId": "4.2.1",
         "text": "Embolie",
         "type": "choice",
         "answerOption": [ {
@@ -5265,7 +5181,7 @@
             "code": "complications.thromboembolicComplications.thrombosis"
           }
         } ],
-        "linkId": "5.2.2",
+        "linkId": "4.2.2",
         "text": "Thrombose",
         "type": "choice",
         "answerOption": [ {
@@ -5296,7 +5212,7 @@
             "code": "complications.thromboembolicComplications.venousThrombosis"
           }
         } ],
-        "linkId": "5.2.3",
+        "linkId": "4.2.3",
         "text": "Venöse Thrombose",
         "type": "choice",
         "answerOption": [ {
@@ -5327,7 +5243,7 @@
             "code": "complications.thromboembolicComplications.pulmonaryEmbolism"
           }
         } ],
-        "linkId": "5.2.4",
+        "linkId": "4.2.4",
         "text": "Lungenarterienembolie",
         "type": "choice",
         "answerOption": [ {
@@ -5358,7 +5274,7 @@
             "code": "complications.thromboembolicComplications.cerebrovascularAccident"
           }
         } ],
-        "linkId": "5.2.5",
+        "linkId": "4.2.5",
         "text": "Stroke",
         "type": "choice",
         "answerOption": [ {
@@ -5389,7 +5305,7 @@
             "code": "complications.thromboembolicComplications.myocardialInfarction"
           }
         } ],
-        "linkId": "5.2.6",
+        "linkId": "4.2.6",
         "text": "Myokardinfarkt",
         "type": "choice",
         "answerOption": [ {
@@ -5420,9 +5336,11 @@
           "version": "1.0",
           "code": "complications.infectiousDiseaseOfLung"
         }
+      }, {
+        "url": "https://num-compass.science/fhir/StructureDefinition/GeccoTargetProfile",
+        "valueString": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/complications-covid-19"
       } ],
-      "linkId": "5.3",
-      "definition": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/complications-covid-19",
+      "linkId": "4.3",
       "text": "Infektion der Lunge",
       "type": "choice",
       "answerOption": [ {
@@ -5452,9 +5370,11 @@
           "version": "1.0",
           "code": "complications.infectiousAgentInBloodstream"
         }
+      }, {
+        "url": "https://num-compass.science/fhir/StructureDefinition/GeccoTargetProfile",
+        "valueString": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/complications-covid-19"
       } ],
-      "linkId": "5.4",
-      "definition": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/complications-covid-19",
+      "linkId": "4.4",
       "text": "Blutstrominfektion",
       "type": "choice",
       "answerOption": [ {
@@ -5484,9 +5404,11 @@
           "version": "1.0",
           "code": "complications.acuteRenalFailureSyndrome"
         }
+      }, {
+        "url": "https://num-compass.science/fhir/StructureDefinition/GeccoTargetProfile",
+        "valueString": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/complications-covid-19"
       } ],
-      "linkId": "5.5",
-      "definition": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/complications-covid-19",
+      "linkId": "4.5",
       "text": "Akutes Nierenversagen",
       "type": "choice",
       "answerOption": [ {
@@ -5518,7 +5440,7 @@
         "code": "onsetOfIllnessOrAdmission"
       }
     } ],
-    "linkId": "6",
+    "linkId": "5",
     "text": "Krankheitsbeginn / Aufnahme",
     "type": "group",
     "item": [ {
@@ -5530,7 +5452,7 @@
           "code": "onsetOfIllnessOrAdmission.stageAtDiagnosis"
         }
       } ],
-      "linkId": "6.1",
+      "linkId": "5.1",
       "text": "Erkrankungsphase zum Zeitpunkt der COVID-19 Diagnose",
       "type": "choice",
       "answerOption": [ {
@@ -5579,7 +5501,7 @@
           "code": "onsetOfIllnessOrAdmission.dateTimeOfAdmission"
         }
       } ],
-      "linkId": "6.2",
+      "linkId": "5.2",
       "text": "Datum der Aufnahme",
       "type": "date"
     } ]
@@ -5592,7 +5514,7 @@
         "code": "outcomeAtDischarge"
       }
     } ],
-    "linkId": "7",
+    "linkId": "6",
     "text": "Outcome bei Entlassung",
     "type": "group",
     "item": [ {
@@ -5603,9 +5525,11 @@
           "version": "1.0",
           "code": "outcomeAtDischarge.respiratoryOutcomeisVentilated"
         }
+      }, {
+        "url": "https://num-compass.science/fhir/StructureDefinition/GeccoTargetProfile",
+        "valueString": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/dependence-on-ventilator"
       } ],
-      "linkId": "7.1",
-      "definition": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/dependence-on-ventilator",
+      "linkId": "6.1",
       "text": "Beatmet?",
       "type": "choice",
       "answerOption": [ {
@@ -5636,7 +5560,7 @@
           "code": "outcomeAtDischarge.dateOfDischarge"
         }
       } ],
-      "linkId": "7.2",
+      "linkId": "6.2",
       "text": "Zeitpunkt der Entlassung",
       "type": "date"
     }, {
@@ -5647,8 +5571,11 @@
           "version": "1.0",
           "code": "outcomeAtDischarge.typeOfDischarge"
         }
+      }, {
+        "url": "https://num-compass.science/fhir/StructureDefinition/GeccoTargetProfile",
+        "valueString": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/discharge-disposition"
       } ],
-      "linkId": "7.3",
+      "linkId": "6.3",
       "text": "Entlassungsart",
       "type": "choice",
       "answerOption": [ {
@@ -5696,8 +5623,11 @@
           "version": "1.0",
           "code": "outcomeAtDischarge.followupSwapResultIsPositive"
         }
+      }, {
+        "url": "https://num-compass.science/fhir/StructureDefinition/GeccoTargetProfile",
+        "valueString": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/sars-cov-2-rt-pcr"
       } ],
-      "linkId": "7.4",
+      "linkId": "6.4",
       "text": "Ergebnis des Folgeabstrich?",
       "type": "choice",
       "answerOption": [ {
@@ -5729,7 +5659,7 @@
         "code": "studyEnrollmentOrInclusionCriteria"
       }
     } ],
-    "linkId": "8",
+    "linkId": "7",
     "text": "Studieneinschluss/Einschlusskriterien",
     "type": "group",
     "item": [ {
@@ -5740,8 +5670,11 @@
           "version": "1.0",
           "code": "studyEnrollmentOrInclusionCriteria.enrolledWithCovid19DiagnosisAsMainReason"
         }
+      }, {
+        "url": "https://num-compass.science/fhir/StructureDefinition/GeccoTargetProfile",
+        "valueString": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/study-inclusion-covid-19"
       } ],
-      "linkId": "8.1",
+      "linkId": "7.1",
       "text": "Bestätigte Covid-19-Diagnose als Hauptursache für Aufnahme in Studie",
       "type": "choice",
       "answerOption": [ {
@@ -5783,8 +5716,11 @@
           "version": "1.0",
           "code": "studyEnrollmentOrInclusionCriteria.hasPatientParticipatedInOneOrMoreInterventionalClinicalTrials"
         }
+      }, {
+        "url": "https://num-compass.science/fhir/StructureDefinition/GeccoTargetProfile",
+        "valueString": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/interventional-clinical-trial-participation"
       } ],
-      "linkId": "8.2",
+      "linkId": "7.2",
       "text": "Hat der Patient an einer oder mehreren interventionellen Klinischen Studie teilgenommen?",
       "type": "choice",
       "answerOption": [ {
@@ -5828,7 +5764,7 @@
         "code": "symptoms"
       }
     } ],
-    "linkId": "9",
+    "linkId": "8",
     "text": "Symptome",
     "type": "group",
     "item": [ {
@@ -5839,9 +5775,11 @@
           "version": "1.0",
           "code": "symptoms.abdominalPain"
         }
+      }, {
+        "url": "https://num-compass.science/fhir/StructureDefinition/GeccoTargetProfile",
+        "valueString": "https://www.netzwerk-universitaetsmedizin.de/fhir/ValueSet/sars-cov-2-symptoms"
       } ],
-      "linkId": "9.1",
-      "definition": "https://www.netzwerk-universitaetsmedizin.de/fhir/ValueSet/sars-cov-2-symptoms",
+      "linkId": "8.1",
       "text": "Bauchschmerzen",
       "type": "group",
       "item": [ {
@@ -5853,7 +5791,7 @@
             "code": "symptoms.abdominalPain.presence"
           }
         } ],
-        "linkId": "9.1.1",
+        "linkId": "8.1.1",
         "text": "Vorhandensein?",
         "type": "choice",
         "answerOption": [ {
@@ -5884,11 +5822,11 @@
             "code": "symptoms.abdominalPain.severity"
           }
         } ],
-        "linkId": "9.1.2",
+        "linkId": "8.1.2",
         "text": "Schweregrad?",
         "type": "choice",
         "enableWhen": [ {
-          "question": "9.1.1",
+          "question": "8.1.1",
           "operator": "=",
           "answerCoding": {
             "system": "http://terminology.hl7.org/CodeSystem/v2-0136",
@@ -5930,9 +5868,11 @@
           "version": "1.0",
           "code": "symptoms.asymptomatic"
         }
+      }, {
+        "url": "https://num-compass.science/fhir/StructureDefinition/GeccoTargetProfile",
+        "valueString": "https://www.netzwerk-universitaetsmedizin.de/fhir/ValueSet/sars-cov-2-symptoms"
       } ],
-      "linkId": "9.2",
-      "definition": "https://www.netzwerk-universitaetsmedizin.de/fhir/ValueSet/sars-cov-2-symptoms",
+      "linkId": "8.2",
       "text": "Asymptomatisch",
       "type": "choice",
       "answerOption": [ {
@@ -5962,9 +5902,11 @@
           "version": "1.0",
           "code": "symptoms.bleeding"
         }
+      }, {
+        "url": "https://num-compass.science/fhir/StructureDefinition/GeccoTargetProfile",
+        "valueString": "https://www.netzwerk-universitaetsmedizin.de/fhir/ValueSet/sars-cov-2-symptoms"
       } ],
-      "linkId": "9.3",
-      "definition": "https://www.netzwerk-universitaetsmedizin.de/fhir/ValueSet/sars-cov-2-symptoms",
+      "linkId": "8.3",
       "text": "Blutung",
       "type": "group",
       "item": [ {
@@ -5976,7 +5918,7 @@
             "code": "symptoms.bleeding.presence"
           }
         } ],
-        "linkId": "9.3.1",
+        "linkId": "8.3.1",
         "text": "Vorhandensein?",
         "type": "choice",
         "answerOption": [ {
@@ -6007,11 +5949,11 @@
             "code": "symptoms.bleeding.severity"
           }
         } ],
-        "linkId": "9.3.2",
+        "linkId": "8.3.2",
         "text": "Schweregrad?",
         "type": "choice",
         "enableWhen": [ {
-          "question": "9.3.1",
+          "question": "8.3.1",
           "operator": "=",
           "answerCoding": {
             "system": "http://terminology.hl7.org/CodeSystem/v2-0136",
@@ -6053,9 +5995,11 @@
           "version": "1.0",
           "code": "symptoms.chestPain"
         }
+      }, {
+        "url": "https://num-compass.science/fhir/StructureDefinition/GeccoTargetProfile",
+        "valueString": "https://www.netzwerk-universitaetsmedizin.de/fhir/ValueSet/sars-cov-2-symptoms"
       } ],
-      "linkId": "9.4",
-      "definition": "https://www.netzwerk-universitaetsmedizin.de/fhir/ValueSet/sars-cov-2-symptoms",
+      "linkId": "8.4",
       "text": "Brustschmerzen",
       "type": "group",
       "item": [ {
@@ -6067,7 +6011,7 @@
             "code": "symptoms.chestPain.presence"
           }
         } ],
-        "linkId": "9.4.1",
+        "linkId": "8.4.1",
         "text": "Vorhandensein?",
         "type": "choice",
         "answerOption": [ {
@@ -6098,11 +6042,11 @@
             "code": "symptoms.chestPain.severity"
           }
         } ],
-        "linkId": "9.4.2",
+        "linkId": "8.4.2",
         "text": "Schweregrad?",
         "type": "choice",
         "enableWhen": [ {
-          "question": "9.4.1",
+          "question": "8.4.1",
           "operator": "=",
           "answerCoding": {
             "system": "http://terminology.hl7.org/CodeSystem/v2-0136",
@@ -6144,9 +6088,11 @@
           "version": "1.0",
           "code": "symptoms.chill"
         }
+      }, {
+        "url": "https://num-compass.science/fhir/StructureDefinition/GeccoTargetProfile",
+        "valueString": "https://www.netzwerk-universitaetsmedizin.de/fhir/ValueSet/sars-cov-2-symptoms"
       } ],
-      "linkId": "9.5",
-      "definition": "https://www.netzwerk-universitaetsmedizin.de/fhir/ValueSet/sars-cov-2-symptoms",
+      "linkId": "8.5",
       "text": "Schüttelfrost",
       "type": "group",
       "item": [ {
@@ -6158,7 +6104,7 @@
             "code": "symptoms.chill.presence"
           }
         } ],
-        "linkId": "9.5.1",
+        "linkId": "8.5.1",
         "text": "Vorhandensein?",
         "type": "choice",
         "answerOption": [ {
@@ -6189,11 +6135,11 @@
             "code": "symptoms.chill.severity"
           }
         } ],
-        "linkId": "9.5.2",
+        "linkId": "8.5.2",
         "text": "Schweregrad?",
         "type": "choice",
         "enableWhen": [ {
-          "question": "9.5.1",
+          "question": "8.5.1",
           "operator": "=",
           "answerCoding": {
             "system": "http://terminology.hl7.org/CodeSystem/v2-0136",
@@ -6235,9 +6181,11 @@
           "version": "1.0",
           "code": "symptoms.conjunctivis"
         }
+      }, {
+        "url": "https://num-compass.science/fhir/StructureDefinition/GeccoTargetProfile",
+        "valueString": "https://www.netzwerk-universitaetsmedizin.de/fhir/ValueSet/sars-cov-2-symptoms"
       } ],
-      "linkId": "9.6",
-      "definition": "https://www.netzwerk-universitaetsmedizin.de/fhir/ValueSet/sars-cov-2-symptoms",
+      "linkId": "8.6",
       "text": "Konjunktivitis",
       "type": "group",
       "item": [ {
@@ -6249,7 +6197,7 @@
             "code": "symptoms.conjunctivis.presence"
           }
         } ],
-        "linkId": "9.6.1",
+        "linkId": "8.6.1",
         "text": "Vorhandensein?",
         "type": "choice",
         "answerOption": [ {
@@ -6280,11 +6228,11 @@
             "code": "symptoms.conjunctivis.severity"
           }
         } ],
-        "linkId": "9.6.2",
+        "linkId": "8.6.2",
         "text": "Schweregrad?",
         "type": "choice",
         "enableWhen": [ {
-          "question": "9.6.1",
+          "question": "8.6.1",
           "operator": "=",
           "answerCoding": {
             "system": "http://terminology.hl7.org/CodeSystem/v2-0136",
@@ -6326,9 +6274,11 @@
           "version": "1.0",
           "code": "symptoms.cough"
         }
+      }, {
+        "url": "https://num-compass.science/fhir/StructureDefinition/GeccoTargetProfile",
+        "valueString": "https://www.netzwerk-universitaetsmedizin.de/fhir/ValueSet/sars-cov-2-symptoms"
       } ],
-      "linkId": "9.7",
-      "definition": "https://www.netzwerk-universitaetsmedizin.de/fhir/ValueSet/sars-cov-2-symptoms",
+      "linkId": "8.7",
       "text": "Husten",
       "type": "group",
       "item": [ {
@@ -6340,7 +6290,7 @@
             "code": "symptoms.cough.presence"
           }
         } ],
-        "linkId": "9.7.1",
+        "linkId": "8.7.1",
         "text": "Vorhandensein?",
         "type": "choice",
         "answerOption": [ {
@@ -6371,11 +6321,11 @@
             "code": "symptoms.cough.severity"
           }
         } ],
-        "linkId": "9.7.2",
+        "linkId": "8.7.2",
         "text": "Schweregrad?",
         "type": "choice",
         "enableWhen": [ {
-          "question": "9.7.1",
+          "question": "8.7.1",
           "operator": "=",
           "answerCoding": {
             "system": "http://terminology.hl7.org/CodeSystem/v2-0136",
@@ -6417,9 +6367,11 @@
           "version": "1.0",
           "code": "symptoms.diarrhea"
         }
+      }, {
+        "url": "https://num-compass.science/fhir/StructureDefinition/GeccoTargetProfile",
+        "valueString": "https://www.netzwerk-universitaetsmedizin.de/fhir/ValueSet/sars-cov-2-symptoms"
       } ],
-      "linkId": "9.8",
-      "definition": "https://www.netzwerk-universitaetsmedizin.de/fhir/ValueSet/sars-cov-2-symptoms",
+      "linkId": "8.8",
       "text": "Durchfall",
       "type": "group",
       "item": [ {
@@ -6431,7 +6383,7 @@
             "code": "symptoms.diarrhea.presence"
           }
         } ],
-        "linkId": "9.8.1",
+        "linkId": "8.8.1",
         "text": "Vorhandensein?",
         "type": "choice",
         "answerOption": [ {
@@ -6462,11 +6414,11 @@
             "code": "symptoms.diarrhea.severity"
           }
         } ],
-        "linkId": "9.8.2",
+        "linkId": "8.8.2",
         "text": "Schweregrad?",
         "type": "choice",
         "enableWhen": [ {
-          "question": "9.8.1",
+          "question": "8.8.1",
           "operator": "=",
           "answerCoding": {
             "system": "http://terminology.hl7.org/CodeSystem/v2-0136",
@@ -6508,9 +6460,11 @@
           "version": "1.0",
           "code": "symptoms.disturbanceOfConsciousness"
         }
+      }, {
+        "url": "https://num-compass.science/fhir/StructureDefinition/GeccoTargetProfile",
+        "valueString": "https://www.netzwerk-universitaetsmedizin.de/fhir/ValueSet/sars-cov-2-symptoms"
       } ],
-      "linkId": "9.9",
-      "definition": "https://www.netzwerk-universitaetsmedizin.de/fhir/ValueSet/sars-cov-2-symptoms",
+      "linkId": "8.9",
       "text": "Bewusstseinsstörung",
       "type": "group",
       "item": [ {
@@ -6522,7 +6476,7 @@
             "code": "symptoms.disturbanceOfConsciousness.presence"
           }
         } ],
-        "linkId": "9.9.1",
+        "linkId": "8.9.1",
         "text": "Vorhandensein?",
         "type": "choice",
         "answerOption": [ {
@@ -6553,11 +6507,11 @@
             "code": "symptoms.disturbanceOfConsciousness.severity"
           }
         } ],
-        "linkId": "9.9.2",
+        "linkId": "8.9.2",
         "text": "Schweregrad?",
         "type": "choice",
         "enableWhen": [ {
-          "question": "9.9.1",
+          "question": "8.9.1",
           "operator": "=",
           "answerCoding": {
             "system": "http://terminology.hl7.org/CodeSystem/v2-0136",
@@ -6599,9 +6553,11 @@
           "version": "1.0",
           "code": "symptoms.dyspnea"
         }
+      }, {
+        "url": "https://num-compass.science/fhir/StructureDefinition/GeccoTargetProfile",
+        "valueString": "https://www.netzwerk-universitaetsmedizin.de/fhir/ValueSet/sars-cov-2-symptoms"
       } ],
-      "linkId": "9.10",
-      "definition": "https://www.netzwerk-universitaetsmedizin.de/fhir/ValueSet/sars-cov-2-symptoms",
+      "linkId": "8.10",
       "text": "Atemnot",
       "type": "group",
       "item": [ {
@@ -6613,7 +6569,7 @@
             "code": "symptoms.dyspnea.presence"
           }
         } ],
-        "linkId": "9.10.1",
+        "linkId": "8.10.1",
         "text": "Vorhandensein?",
         "type": "choice",
         "answerOption": [ {
@@ -6644,11 +6600,11 @@
             "code": "symptoms.dyspnea.severity"
           }
         } ],
-        "linkId": "9.10.2",
+        "linkId": "8.10.2",
         "text": "Schweregrad?",
         "type": "choice",
         "enableWhen": [ {
-          "question": "9.10.1",
+          "question": "8.10.1",
           "operator": "=",
           "answerCoding": {
             "system": "http://terminology.hl7.org/CodeSystem/v2-0136",
@@ -6690,9 +6646,11 @@
           "version": "1.0",
           "code": "symptoms.erruptionOfSkin"
         }
+      }, {
+        "url": "https://num-compass.science/fhir/StructureDefinition/GeccoTargetProfile",
+        "valueString": "https://www.netzwerk-universitaetsmedizin.de/fhir/ValueSet/sars-cov-2-symptoms"
       } ],
-      "linkId": "9.11",
-      "definition": "https://www.netzwerk-universitaetsmedizin.de/fhir/ValueSet/sars-cov-2-symptoms",
+      "linkId": "8.11",
       "text": "Hautausschlag",
       "type": "group",
       "item": [ {
@@ -6704,7 +6662,7 @@
             "code": "symptoms.erruptionOfSkin.presence"
           }
         } ],
-        "linkId": "9.11.1",
+        "linkId": "8.11.1",
         "text": "Vorhandensein?",
         "type": "choice",
         "answerOption": [ {
@@ -6735,11 +6693,11 @@
             "code": "symptoms.erruptionOfSkin.severity"
           }
         } ],
-        "linkId": "9.11.2",
+        "linkId": "8.11.2",
         "text": "Schweregrad?",
         "type": "choice",
         "enableWhen": [ {
-          "question": "9.11.1",
+          "question": "8.11.1",
           "operator": "=",
           "answerCoding": {
             "system": "http://terminology.hl7.org/CodeSystem/v2-0136",
@@ -6781,9 +6739,11 @@
           "version": "1.0",
           "code": "symptoms.fatigue"
         }
+      }, {
+        "url": "https://num-compass.science/fhir/StructureDefinition/GeccoTargetProfile",
+        "valueString": "https://www.netzwerk-universitaetsmedizin.de/fhir/ValueSet/sars-cov-2-symptoms"
       } ],
-      "linkId": "9.12",
-      "definition": "https://www.netzwerk-universitaetsmedizin.de/fhir/ValueSet/sars-cov-2-symptoms",
+      "linkId": "8.12",
       "text": "Müdigkeit",
       "type": "group",
       "item": [ {
@@ -6795,7 +6755,7 @@
             "code": "symptoms.fatigue.presence"
           }
         } ],
-        "linkId": "9.12.1",
+        "linkId": "8.12.1",
         "text": "Vorhandensein?",
         "type": "choice",
         "answerOption": [ {
@@ -6826,11 +6786,11 @@
             "code": "symptoms.fatigue.severity"
           }
         } ],
-        "linkId": "9.12.2",
+        "linkId": "8.12.2",
         "text": "Schweregrad?",
         "type": "choice",
         "enableWhen": [ {
-          "question": "9.12.1",
+          "question": "8.12.1",
           "operator": "=",
           "answerCoding": {
             "system": "http://terminology.hl7.org/CodeSystem/v2-0136",
@@ -6872,9 +6832,11 @@
           "version": "1.0",
           "code": "symptoms.feelingFeverish"
         }
+      }, {
+        "url": "https://num-compass.science/fhir/StructureDefinition/GeccoTargetProfile",
+        "valueString": "https://www.netzwerk-universitaetsmedizin.de/fhir/ValueSet/sars-cov-2-symptoms"
       } ],
-      "linkId": "9.13",
-      "definition": "https://www.netzwerk-universitaetsmedizin.de/fhir/ValueSet/sars-cov-2-symptoms",
+      "linkId": "8.13",
       "text": "Fieberigkeit",
       "type": "group",
       "item": [ {
@@ -6886,7 +6848,7 @@
             "code": "symptoms.feelingFeverish.presence"
           }
         } ],
-        "linkId": "9.13.1",
+        "linkId": "8.13.1",
         "text": "Vorhandensein?",
         "type": "choice",
         "answerOption": [ {
@@ -6917,11 +6879,11 @@
             "code": "symptoms.feelingFeverish.severity"
           }
         } ],
-        "linkId": "9.13.2",
+        "linkId": "8.13.2",
         "text": "Schweregrad?",
         "type": "choice",
         "enableWhen": [ {
-          "question": "9.13.1",
+          "question": "8.13.1",
           "operator": "=",
           "answerCoding": {
             "system": "http://terminology.hl7.org/CodeSystem/v2-0136",
@@ -6963,9 +6925,11 @@
           "version": "1.0",
           "code": "symptoms.fever"
         }
+      }, {
+        "url": "https://num-compass.science/fhir/StructureDefinition/GeccoTargetProfile",
+        "valueString": "https://www.netzwerk-universitaetsmedizin.de/fhir/ValueSet/sars-cov-2-symptoms"
       } ],
-      "linkId": "9.14",
-      "definition": "https://www.netzwerk-universitaetsmedizin.de/fhir/ValueSet/sars-cov-2-symptoms",
+      "linkId": "8.14",
       "text": "Fieber",
       "type": "group",
       "item": [ {
@@ -6977,7 +6941,7 @@
             "code": "symptoms.fever.presence"
           }
         } ],
-        "linkId": "9.14.1",
+        "linkId": "8.14.1",
         "text": "Vorhandensein?",
         "type": "choice",
         "answerOption": [ {
@@ -7008,11 +6972,11 @@
             "code": "symptoms.fever.severity"
           }
         } ],
-        "linkId": "9.14.2",
+        "linkId": "8.14.2",
         "text": "Schweregrad?",
         "type": "choice",
         "enableWhen": [ {
-          "question": "9.14.1",
+          "question": "8.14.1",
           "operator": "=",
           "answerCoding": {
             "system": "http://terminology.hl7.org/CodeSystem/v2-0136",
@@ -7054,9 +7018,11 @@
           "version": "1.0",
           "code": "symptoms.headache"
         }
+      }, {
+        "url": "https://num-compass.science/fhir/StructureDefinition/GeccoTargetProfile",
+        "valueString": "https://www.netzwerk-universitaetsmedizin.de/fhir/ValueSet/sars-cov-2-symptoms"
       } ],
-      "linkId": "9.15",
-      "definition": "https://www.netzwerk-universitaetsmedizin.de/fhir/ValueSet/sars-cov-2-symptoms",
+      "linkId": "8.15",
       "text": "Kopfschmerzen",
       "type": "group",
       "item": [ {
@@ -7068,7 +7034,7 @@
             "code": "symptoms.headache.presence"
           }
         } ],
-        "linkId": "9.15.1",
+        "linkId": "8.15.1",
         "text": "Vorhandensein?",
         "type": "choice",
         "answerOption": [ {
@@ -7099,11 +7065,11 @@
             "code": "symptoms.headache.severity"
           }
         } ],
-        "linkId": "9.15.2",
+        "linkId": "8.15.2",
         "text": "Schweregrad?",
         "type": "choice",
         "enableWhen": [ {
-          "question": "9.15.1",
+          "question": "8.15.1",
           "operator": "=",
           "answerCoding": {
             "system": "http://terminology.hl7.org/CodeSystem/v2-0136",
@@ -7145,9 +7111,11 @@
           "version": "1.0",
           "code": "symptoms.hemoptysis"
         }
+      }, {
+        "url": "https://num-compass.science/fhir/StructureDefinition/GeccoTargetProfile",
+        "valueString": "https://www.netzwerk-universitaetsmedizin.de/fhir/ValueSet/sars-cov-2-symptoms"
       } ],
-      "linkId": "9.16",
-      "definition": "https://www.netzwerk-universitaetsmedizin.de/fhir/ValueSet/sars-cov-2-symptoms",
+      "linkId": "8.16",
       "text": "Bluthusten",
       "type": "group",
       "item": [ {
@@ -7159,7 +7127,7 @@
             "code": "symptoms.hemoptysis.presence"
           }
         } ],
-        "linkId": "9.16.1",
+        "linkId": "8.16.1",
         "text": "Vorhandensein?",
         "type": "choice",
         "answerOption": [ {
@@ -7190,11 +7158,11 @@
             "code": "symptoms.hemoptysis.severity"
           }
         } ],
-        "linkId": "9.16.2",
+        "linkId": "8.16.2",
         "text": "Schweregrad?",
         "type": "choice",
         "enableWhen": [ {
-          "question": "9.16.1",
+          "question": "8.16.1",
           "operator": "=",
           "answerCoding": {
             "system": "http://terminology.hl7.org/CodeSystem/v2-0136",
@@ -7236,9 +7204,11 @@
           "version": "1.0",
           "code": "symptoms.indrawingOfRibsDuringRespiration"
         }
+      }, {
+        "url": "https://num-compass.science/fhir/StructureDefinition/GeccoTargetProfile",
+        "valueString": "https://www.netzwerk-universitaetsmedizin.de/fhir/ValueSet/sars-cov-2-symptoms"
       } ],
-      "linkId": "9.17",
-      "definition": "https://www.netzwerk-universitaetsmedizin.de/fhir/ValueSet/sars-cov-2-symptoms",
+      "linkId": "8.17",
       "text": "Hauteinziehungen des Brustkorbs bei der Einatmung",
       "type": "group",
       "item": [ {
@@ -7250,7 +7220,7 @@
             "code": "symptoms.indrawingOfRibsDuringRespiration.presence"
           }
         } ],
-        "linkId": "9.17.1",
+        "linkId": "8.17.1",
         "text": "Vorhandensein?",
         "type": "choice",
         "answerOption": [ {
@@ -7281,11 +7251,11 @@
             "code": "symptoms.indrawingOfRibsDuringRespiration.severity"
           }
         } ],
-        "linkId": "9.17.2",
+        "linkId": "8.17.2",
         "text": "Schweregrad?",
         "type": "choice",
         "enableWhen": [ {
-          "question": "9.17.1",
+          "question": "8.17.1",
           "operator": "=",
           "answerCoding": {
             "system": "http://terminology.hl7.org/CodeSystem/v2-0136",
@@ -7327,9 +7297,11 @@
           "version": "1.0",
           "code": "symptoms.jointPain"
         }
+      }, {
+        "url": "https://num-compass.science/fhir/StructureDefinition/GeccoTargetProfile",
+        "valueString": "https://www.netzwerk-universitaetsmedizin.de/fhir/ValueSet/sars-cov-2-symptoms"
       } ],
-      "linkId": "9.18",
-      "definition": "https://www.netzwerk-universitaetsmedizin.de/fhir/ValueSet/sars-cov-2-symptoms",
+      "linkId": "8.18",
       "text": "Gelenkschmerz",
       "type": "group",
       "item": [ {
@@ -7341,7 +7313,7 @@
             "code": "symptoms.jointPain.presence"
           }
         } ],
-        "linkId": "9.18.1",
+        "linkId": "8.18.1",
         "text": "Vorhandensein?",
         "type": "choice",
         "answerOption": [ {
@@ -7372,11 +7344,11 @@
             "code": "symptoms.jointPain.severity"
           }
         } ],
-        "linkId": "9.18.2",
+        "linkId": "8.18.2",
         "text": "Schweregrad?",
         "type": "choice",
         "enableWhen": [ {
-          "question": "9.18.1",
+          "question": "8.18.1",
           "operator": "=",
           "answerCoding": {
             "system": "http://terminology.hl7.org/CodeSystem/v2-0136",
@@ -7418,9 +7390,11 @@
           "version": "1.0",
           "code": "symptoms.lossOfAppetite"
         }
+      }, {
+        "url": "https://num-compass.science/fhir/StructureDefinition/GeccoTargetProfile",
+        "valueString": "https://www.netzwerk-universitaetsmedizin.de/fhir/ValueSet/sars-cov-2-symptoms"
       } ],
-      "linkId": "9.19",
-      "definition": "https://www.netzwerk-universitaetsmedizin.de/fhir/ValueSet/sars-cov-2-symptoms",
+      "linkId": "8.19",
       "text": "Appetitverlust",
       "type": "group",
       "item": [ {
@@ -7432,7 +7406,7 @@
             "code": "symptoms.lossOfAppetite.presence"
           }
         } ],
-        "linkId": "9.19.1",
+        "linkId": "8.19.1",
         "text": "Vorhandensein?",
         "type": "choice",
         "answerOption": [ {
@@ -7463,11 +7437,11 @@
             "code": "symptoms.lossOfAppetite.severity"
           }
         } ],
-        "linkId": "9.19.2",
+        "linkId": "8.19.2",
         "text": "Schweregrad?",
         "type": "choice",
         "enableWhen": [ {
-          "question": "9.19.1",
+          "question": "8.19.1",
           "operator": "=",
           "answerCoding": {
             "system": "http://terminology.hl7.org/CodeSystem/v2-0136",
@@ -7509,9 +7483,11 @@
           "version": "1.0",
           "code": "symptoms.lossOfSenseOfSmell"
         }
+      }, {
+        "url": "https://num-compass.science/fhir/StructureDefinition/GeccoTargetProfile",
+        "valueString": "https://www.netzwerk-universitaetsmedizin.de/fhir/ValueSet/sars-cov-2-symptoms"
       } ],
-      "linkId": "9.20",
-      "definition": "https://www.netzwerk-universitaetsmedizin.de/fhir/ValueSet/sars-cov-2-symptoms",
+      "linkId": "8.20",
       "text": "Geruchverlust",
       "type": "group",
       "item": [ {
@@ -7523,7 +7499,7 @@
             "code": "symptoms.lossOfSenseOfSmell.presence"
           }
         } ],
-        "linkId": "9.20.1",
+        "linkId": "8.20.1",
         "text": "Vorhandensein?",
         "type": "choice",
         "answerOption": [ {
@@ -7554,11 +7530,11 @@
             "code": "symptoms.lossOfSenseOfSmell.severity"
           }
         } ],
-        "linkId": "9.20.2",
+        "linkId": "8.20.2",
         "text": "Schweregrad?",
         "type": "choice",
         "enableWhen": [ {
-          "question": "9.20.1",
+          "question": "8.20.1",
           "operator": "=",
           "answerCoding": {
             "system": "http://terminology.hl7.org/CodeSystem/v2-0136",
@@ -7600,9 +7576,11 @@
           "version": "1.0",
           "code": "symptoms.lossOfTaste"
         }
+      }, {
+        "url": "https://num-compass.science/fhir/StructureDefinition/GeccoTargetProfile",
+        "valueString": "https://www.netzwerk-universitaetsmedizin.de/fhir/ValueSet/sars-cov-2-symptoms"
       } ],
-      "linkId": "9.21",
-      "definition": "https://www.netzwerk-universitaetsmedizin.de/fhir/ValueSet/sars-cov-2-symptoms",
+      "linkId": "8.21",
       "text": "Geschmackverlust",
       "type": "group",
       "item": [ {
@@ -7614,7 +7592,7 @@
             "code": "symptoms.lossOfTaste.presence"
           }
         } ],
-        "linkId": "9.21.1",
+        "linkId": "8.21.1",
         "text": "Vorhandensein?",
         "type": "choice",
         "answerOption": [ {
@@ -7645,11 +7623,11 @@
             "code": "symptoms.lossOfTaste.severity"
           }
         } ],
-        "linkId": "9.21.2",
+        "linkId": "8.21.2",
         "text": "Schweregrad?",
         "type": "choice",
         "enableWhen": [ {
-          "question": "9.21.1",
+          "question": "8.21.1",
           "operator": "=",
           "answerCoding": {
             "system": "http://terminology.hl7.org/CodeSystem/v2-0136",
@@ -7691,9 +7669,11 @@
           "version": "1.0",
           "code": "symptoms.lymphadenopathy"
         }
+      }, {
+        "url": "https://num-compass.science/fhir/StructureDefinition/GeccoTargetProfile",
+        "valueString": "https://www.netzwerk-universitaetsmedizin.de/fhir/ValueSet/sars-cov-2-symptoms"
       } ],
-      "linkId": "9.22",
-      "definition": "https://www.netzwerk-universitaetsmedizin.de/fhir/ValueSet/sars-cov-2-symptoms",
+      "linkId": "8.22",
       "text": "Lymphadenopathie",
       "type": "group",
       "item": [ {
@@ -7705,7 +7685,7 @@
             "code": "symptoms.lymphadenopathy.presence"
           }
         } ],
-        "linkId": "9.22.1",
+        "linkId": "8.22.1",
         "text": "Vorhandensein?",
         "type": "choice",
         "answerOption": [ {
@@ -7736,11 +7716,11 @@
             "code": "symptoms.lymphadenopathy.severity"
           }
         } ],
-        "linkId": "9.22.2",
+        "linkId": "8.22.2",
         "text": "Schweregrad?",
         "type": "choice",
         "enableWhen": [ {
-          "question": "9.22.1",
+          "question": "8.22.1",
           "operator": "=",
           "answerCoding": {
             "system": "http://terminology.hl7.org/CodeSystem/v2-0136",
@@ -7782,9 +7762,11 @@
           "version": "1.0",
           "code": "symptoms.malaise"
         }
+      }, {
+        "url": "https://num-compass.science/fhir/StructureDefinition/GeccoTargetProfile",
+        "valueString": "https://www.netzwerk-universitaetsmedizin.de/fhir/ValueSet/sars-cov-2-symptoms"
       } ],
-      "linkId": "9.23",
-      "definition": "https://www.netzwerk-universitaetsmedizin.de/fhir/ValueSet/sars-cov-2-symptoms",
+      "linkId": "8.23",
       "text": "Unwohlsein",
       "type": "group",
       "item": [ {
@@ -7796,7 +7778,7 @@
             "code": "symptoms.malaise.presence"
           }
         } ],
-        "linkId": "9.23.1",
+        "linkId": "8.23.1",
         "text": "Vorhandensein?",
         "type": "choice",
         "answerOption": [ {
@@ -7827,11 +7809,11 @@
             "code": "symptoms.malaise.severity"
           }
         } ],
-        "linkId": "9.23.2",
+        "linkId": "8.23.2",
         "text": "Schweregrad?",
         "type": "choice",
         "enableWhen": [ {
-          "question": "9.23.1",
+          "question": "8.23.1",
           "operator": "=",
           "answerCoding": {
             "system": "http://terminology.hl7.org/CodeSystem/v2-0136",
@@ -7873,9 +7855,11 @@
           "version": "1.0",
           "code": "symptoms.musclePain"
         }
+      }, {
+        "url": "https://num-compass.science/fhir/StructureDefinition/GeccoTargetProfile",
+        "valueString": "https://www.netzwerk-universitaetsmedizin.de/fhir/ValueSet/sars-cov-2-symptoms"
       } ],
-      "linkId": "9.24",
-      "definition": "https://www.netzwerk-universitaetsmedizin.de/fhir/ValueSet/sars-cov-2-symptoms",
+      "linkId": "8.24",
       "text": "Muskelschmerzen",
       "type": "group",
       "item": [ {
@@ -7887,7 +7871,7 @@
             "code": "symptoms.musclePain.presence"
           }
         } ],
-        "linkId": "9.24.1",
+        "linkId": "8.24.1",
         "text": "Vorhandensein?",
         "type": "choice",
         "answerOption": [ {
@@ -7918,11 +7902,11 @@
             "code": "symptoms.musclePain.severity"
           }
         } ],
-        "linkId": "9.24.2",
+        "linkId": "8.24.2",
         "text": "Schweregrad?",
         "type": "choice",
         "enableWhen": [ {
-          "question": "9.24.1",
+          "question": "8.24.1",
           "operator": "=",
           "answerCoding": {
             "system": "http://terminology.hl7.org/CodeSystem/v2-0136",
@@ -7964,9 +7948,11 @@
           "version": "1.0",
           "code": "symptoms.nasalCongestion"
         }
+      }, {
+        "url": "https://num-compass.science/fhir/StructureDefinition/GeccoTargetProfile",
+        "valueString": "https://www.netzwerk-universitaetsmedizin.de/fhir/ValueSet/sars-cov-2-symptoms"
       } ],
-      "linkId": "9.25",
-      "definition": "https://www.netzwerk-universitaetsmedizin.de/fhir/ValueSet/sars-cov-2-symptoms",
+      "linkId": "8.25",
       "text": "Verstopfte Nase",
       "type": "group",
       "item": [ {
@@ -7978,7 +7964,7 @@
             "code": "symptoms.nasalCongestion.presence"
           }
         } ],
-        "linkId": "9.25.1",
+        "linkId": "8.25.1",
         "text": "Vorhandensein?",
         "type": "choice",
         "answerOption": [ {
@@ -8009,11 +7995,11 @@
             "code": "symptoms.nasalCongestion.severity"
           }
         } ],
-        "linkId": "9.25.2",
+        "linkId": "8.25.2",
         "text": "Schweregrad?",
         "type": "choice",
         "enableWhen": [ {
-          "question": "9.25.1",
+          "question": "8.25.1",
           "operator": "=",
           "answerCoding": {
             "system": "http://terminology.hl7.org/CodeSystem/v2-0136",
@@ -8055,9 +8041,11 @@
           "version": "1.0",
           "code": "symptoms.nasalDischarge"
         }
+      }, {
+        "url": "https://num-compass.science/fhir/StructureDefinition/GeccoTargetProfile",
+        "valueString": "https://www.netzwerk-universitaetsmedizin.de/fhir/ValueSet/sars-cov-2-symptoms"
       } ],
-      "linkId": "9.26",
-      "definition": "https://www.netzwerk-universitaetsmedizin.de/fhir/ValueSet/sars-cov-2-symptoms",
+      "linkId": "8.26",
       "text": "Laufende Nase",
       "type": "group",
       "item": [ {
@@ -8069,7 +8057,7 @@
             "code": "symptoms.nasalDischarge.presence"
           }
         } ],
-        "linkId": "9.26.1",
+        "linkId": "8.26.1",
         "text": "Vorhandensein?",
         "type": "choice",
         "answerOption": [ {
@@ -8100,11 +8088,11 @@
             "code": "symptoms.nasalDischarge.severity"
           }
         } ],
-        "linkId": "9.26.2",
+        "linkId": "8.26.2",
         "text": "Schweregrad?",
         "type": "choice",
         "enableWhen": [ {
-          "question": "9.26.1",
+          "question": "8.26.1",
           "operator": "=",
           "answerCoding": {
             "system": "http://terminology.hl7.org/CodeSystem/v2-0136",
@@ -8146,9 +8134,11 @@
           "version": "1.0",
           "code": "symptoms.nausea"
         }
+      }, {
+        "url": "https://num-compass.science/fhir/StructureDefinition/GeccoTargetProfile",
+        "valueString": "https://www.netzwerk-universitaetsmedizin.de/fhir/ValueSet/sars-cov-2-symptoms"
       } ],
-      "linkId": "9.27",
-      "definition": "https://www.netzwerk-universitaetsmedizin.de/fhir/ValueSet/sars-cov-2-symptoms",
+      "linkId": "8.27",
       "text": "Übelkeit",
       "type": "group",
       "item": [ {
@@ -8160,7 +8150,7 @@
             "code": "symptoms.nausea.presence"
           }
         } ],
-        "linkId": "9.27.1",
+        "linkId": "8.27.1",
         "text": "Vorhandensein?",
         "type": "choice",
         "answerOption": [ {
@@ -8191,11 +8181,11 @@
             "code": "symptoms.nausea.severity"
           }
         } ],
-        "linkId": "9.27.2",
+        "linkId": "8.27.2",
         "text": "Schweregrad?",
         "type": "choice",
         "enableWhen": [ {
-          "question": "9.27.1",
+          "question": "8.27.1",
           "operator": "=",
           "answerCoding": {
             "system": "http://terminology.hl7.org/CodeSystem/v2-0136",
@@ -8237,9 +8227,11 @@
           "version": "1.0",
           "code": "symptoms.painInThroat"
         }
+      }, {
+        "url": "https://num-compass.science/fhir/StructureDefinition/GeccoTargetProfile",
+        "valueString": "https://www.netzwerk-universitaetsmedizin.de/fhir/ValueSet/sars-cov-2-symptoms"
       } ],
-      "linkId": "9.28",
-      "definition": "https://www.netzwerk-universitaetsmedizin.de/fhir/ValueSet/sars-cov-2-symptoms",
+      "linkId": "8.28",
       "text": "Halsschmerzen",
       "type": "group",
       "item": [ {
@@ -8251,7 +8243,7 @@
             "code": "symptoms.painInThroat.presence"
           }
         } ],
-        "linkId": "9.28.1",
+        "linkId": "8.28.1",
         "text": "Vorhandensein?",
         "type": "choice",
         "answerOption": [ {
@@ -8282,11 +8274,11 @@
             "code": "symptoms.painInThroat.severity"
           }
         } ],
-        "linkId": "9.28.2",
+        "linkId": "8.28.2",
         "text": "Schweregrad?",
         "type": "choice",
         "enableWhen": [ {
-          "question": "9.28.1",
+          "question": "8.28.1",
           "operator": "=",
           "answerCoding": {
             "system": "http://terminology.hl7.org/CodeSystem/v2-0136",
@@ -8328,9 +8320,11 @@
           "version": "1.0",
           "code": "symptoms.rigor"
         }
+      }, {
+        "url": "https://num-compass.science/fhir/StructureDefinition/GeccoTargetProfile",
+        "valueString": "https://www.netzwerk-universitaetsmedizin.de/fhir/ValueSet/sars-cov-2-symptoms"
       } ],
-      "linkId": "9.29",
-      "definition": "https://www.netzwerk-universitaetsmedizin.de/fhir/ValueSet/sars-cov-2-symptoms",
+      "linkId": "8.29",
       "text": "Starre",
       "type": "group",
       "item": [ {
@@ -8342,7 +8336,7 @@
             "code": "symptoms.rigor.presence"
           }
         } ],
-        "linkId": "9.29.1",
+        "linkId": "8.29.1",
         "text": "Vorhandensein?",
         "type": "choice",
         "answerOption": [ {
@@ -8373,11 +8367,11 @@
             "code": "symptoms.rigor.severity"
           }
         } ],
-        "linkId": "9.29.2",
+        "linkId": "8.29.2",
         "text": "Schweregrad?",
         "type": "choice",
         "enableWhen": [ {
-          "question": "9.29.1",
+          "question": "8.29.1",
           "operator": "=",
           "answerCoding": {
             "system": "http://terminology.hl7.org/CodeSystem/v2-0136",
@@ -8419,9 +8413,11 @@
           "version": "1.0",
           "code": "symptoms.seizure"
         }
+      }, {
+        "url": "https://num-compass.science/fhir/StructureDefinition/GeccoTargetProfile",
+        "valueString": "https://www.netzwerk-universitaetsmedizin.de/fhir/ValueSet/sars-cov-2-symptoms"
       } ],
-      "linkId": "9.30",
-      "definition": "https://www.netzwerk-universitaetsmedizin.de/fhir/ValueSet/sars-cov-2-symptoms",
+      "linkId": "8.30",
       "text": "Krampfanfall",
       "type": "group",
       "item": [ {
@@ -8433,7 +8429,7 @@
             "code": "symptoms.seizure.presence"
           }
         } ],
-        "linkId": "9.30.1",
+        "linkId": "8.30.1",
         "text": "Vorhandensein?",
         "type": "choice",
         "answerOption": [ {
@@ -8464,11 +8460,11 @@
             "code": "symptoms.seizure.severity"
           }
         } ],
-        "linkId": "9.30.2",
+        "linkId": "8.30.2",
         "text": "Schweregrad?",
         "type": "choice",
         "enableWhen": [ {
-          "question": "9.30.1",
+          "question": "8.30.1",
           "operator": "=",
           "answerCoding": {
             "system": "http://terminology.hl7.org/CodeSystem/v2-0136",
@@ -8510,9 +8506,11 @@
           "version": "1.0",
           "code": "symptoms.skinUlcer"
         }
+      }, {
+        "url": "https://num-compass.science/fhir/StructureDefinition/GeccoTargetProfile",
+        "valueString": "https://www.netzwerk-universitaetsmedizin.de/fhir/ValueSet/sars-cov-2-symptoms"
       } ],
-      "linkId": "9.31",
-      "definition": "https://www.netzwerk-universitaetsmedizin.de/fhir/ValueSet/sars-cov-2-symptoms",
+      "linkId": "8.31",
       "text": "Hautgeschwüre",
       "type": "group",
       "item": [ {
@@ -8524,7 +8522,7 @@
             "code": "symptoms.skinUlcer.presence"
           }
         } ],
-        "linkId": "9.31.1",
+        "linkId": "8.31.1",
         "text": "Vorhandensein?",
         "type": "choice",
         "answerOption": [ {
@@ -8555,11 +8553,11 @@
             "code": "symptoms.skinUlcer.severity"
           }
         } ],
-        "linkId": "9.31.2",
+        "linkId": "8.31.2",
         "text": "Schweregrad?",
         "type": "choice",
         "enableWhen": [ {
-          "question": "9.31.1",
+          "question": "8.31.1",
           "operator": "=",
           "answerCoding": {
             "system": "http://terminology.hl7.org/CodeSystem/v2-0136",
@@ -8601,9 +8599,11 @@
           "version": "1.0",
           "code": "symptoms.unableToWalk"
         }
+      }, {
+        "url": "https://num-compass.science/fhir/StructureDefinition/GeccoTargetProfile",
+        "valueString": "https://www.netzwerk-universitaetsmedizin.de/fhir/ValueSet/sars-cov-2-symptoms"
       } ],
-      "linkId": "9.32",
-      "definition": "https://www.netzwerk-universitaetsmedizin.de/fhir/ValueSet/sars-cov-2-symptoms",
+      "linkId": "8.32",
       "text": "Unfähig zu gehen",
       "type": "group",
       "item": [ {
@@ -8615,7 +8615,7 @@
             "code": "symptoms.unableToWalk.presence"
           }
         } ],
-        "linkId": "9.32.1",
+        "linkId": "8.32.1",
         "text": "Vorhandensein?",
         "type": "choice",
         "answerOption": [ {
@@ -8646,11 +8646,11 @@
             "code": "symptoms.unableToWalk.severity"
           }
         } ],
-        "linkId": "9.32.2",
+        "linkId": "8.32.2",
         "text": "Schweregrad?",
         "type": "choice",
         "enableWhen": [ {
-          "question": "9.32.1",
+          "question": "8.32.1",
           "operator": "=",
           "answerCoding": {
             "system": "http://terminology.hl7.org/CodeSystem/v2-0136",
@@ -8692,9 +8692,11 @@
           "version": "1.0",
           "code": "symptoms.vomiting"
         }
+      }, {
+        "url": "https://num-compass.science/fhir/StructureDefinition/GeccoTargetProfile",
+        "valueString": "https://www.netzwerk-universitaetsmedizin.de/fhir/ValueSet/sars-cov-2-symptoms"
       } ],
-      "linkId": "9.33",
-      "definition": "https://www.netzwerk-universitaetsmedizin.de/fhir/ValueSet/sars-cov-2-symptoms",
+      "linkId": "8.33",
       "text": "Erbrechen",
       "type": "group",
       "item": [ {
@@ -8706,7 +8708,7 @@
             "code": "symptoms.vomiting.presence"
           }
         } ],
-        "linkId": "9.33.1",
+        "linkId": "8.33.1",
         "text": "Vorhandensein?",
         "type": "choice",
         "answerOption": [ {
@@ -8737,11 +8739,11 @@
             "code": "symptoms.vomiting.severity"
           }
         } ],
-        "linkId": "9.33.2",
+        "linkId": "8.33.2",
         "text": "Schweregrad?",
         "type": "choice",
         "enableWhen": [ {
-          "question": "9.33.1",
+          "question": "8.33.1",
           "operator": "=",
           "answerCoding": {
             "system": "http://terminology.hl7.org/CodeSystem/v2-0136",
@@ -8783,9 +8785,11 @@
           "version": "1.0",
           "code": "symptoms.wheezing"
         }
+      }, {
+        "url": "https://num-compass.science/fhir/StructureDefinition/GeccoTargetProfile",
+        "valueString": "https://www.netzwerk-universitaetsmedizin.de/fhir/ValueSet/sars-cov-2-symptoms"
       } ],
-      "linkId": "9.34",
-      "definition": "https://www.netzwerk-universitaetsmedizin.de/fhir/ValueSet/sars-cov-2-symptoms",
+      "linkId": "8.34",
       "text": "Keuchen",
       "type": "group",
       "item": [ {
@@ -8797,7 +8801,7 @@
             "code": "symptoms.wheezing.presence"
           }
         } ],
-        "linkId": "9.34.1",
+        "linkId": "8.34.1",
         "text": "Vorhandensein?",
         "type": "choice",
         "answerOption": [ {
@@ -8828,11 +8832,11 @@
             "code": "symptoms.wheezing.severity"
           }
         } ],
-        "linkId": "9.34.2",
+        "linkId": "8.34.2",
         "text": "Schweregrad?",
         "type": "choice",
         "enableWhen": [ {
-          "question": "9.34.1",
+          "question": "8.34.1",
           "operator": "=",
           "answerCoding": {
             "system": "http://terminology.hl7.org/CodeSystem/v2-0136",
@@ -8874,9 +8878,11 @@
           "version": "1.0",
           "code": "symptoms.feverGreaterThan38"
         }
+      }, {
+        "url": "https://num-compass.science/fhir/StructureDefinition/GeccoTargetProfile",
+        "valueString": "https://www.netzwerk-universitaetsmedizin.de/fhir/ValueSet/sars-cov-2-symptoms"
       } ],
-      "linkId": "9.35",
-      "definition": "https://www.netzwerk-universitaetsmedizin.de/fhir/ValueSet/sars-cov-2-symptoms",
+      "linkId": "8.35",
       "text": "Fieber über 38° Celsius",
       "type": "group",
       "item": [ {
@@ -8888,7 +8894,7 @@
             "code": "symptoms.feverGreaterThan38.presence"
           }
         } ],
-        "linkId": "9.35.1",
+        "linkId": "8.35.1",
         "text": "Vorhandensein?",
         "type": "choice",
         "answerOption": [ {
@@ -8919,11 +8925,11 @@
             "code": "symptoms.feverGreaterThan38.severity"
           }
         } ],
-        "linkId": "9.35.2",
+        "linkId": "8.35.2",
         "text": "Schweregrad?",
         "type": "choice",
         "enableWhen": [ {
-          "question": "9.35.1",
+          "question": "8.35.1",
           "operator": "=",
           "answerCoding": {
             "system": "http://terminology.hl7.org/CodeSystem/v2-0136",
@@ -8965,9 +8971,11 @@
           "version": "1.0",
           "code": "symptoms.asthenia"
         }
+      }, {
+        "url": "https://num-compass.science/fhir/StructureDefinition/GeccoTargetProfile",
+        "valueString": "https://www.netzwerk-universitaetsmedizin.de/fhir/ValueSet/sars-cov-2-symptoms"
       } ],
-      "linkId": "9.36",
-      "definition": "https://www.netzwerk-universitaetsmedizin.de/fhir/ValueSet/sars-cov-2-symptoms",
+      "linkId": "8.36",
       "text": "Schwächegefühl",
       "type": "group",
       "item": [ {
@@ -8979,7 +8987,7 @@
             "code": "symptoms.asthenia.presence"
           }
         } ],
-        "linkId": "9.36.1",
+        "linkId": "8.36.1",
         "text": "Vorhandensein?",
         "type": "choice",
         "answerOption": [ {
@@ -9010,11 +9018,11 @@
             "code": "symptoms.asthenia.severity"
           }
         } ],
-        "linkId": "9.36.2",
+        "linkId": "8.36.2",
         "text": "Schweregrad?",
         "type": "choice",
         "enableWhen": [ {
-          "question": "9.36.1",
+          "question": "8.36.1",
           "operator": "=",
           "answerCoding": {
             "system": "http://terminology.hl7.org/CodeSystem/v2-0136",
@@ -9056,9 +9064,11 @@
           "version": "1.0",
           "code": "symptoms.pain"
         }
+      }, {
+        "url": "https://num-compass.science/fhir/StructureDefinition/GeccoTargetProfile",
+        "valueString": "https://www.netzwerk-universitaetsmedizin.de/fhir/ValueSet/sars-cov-2-symptoms"
       } ],
-      "linkId": "9.37",
-      "definition": "https://www.netzwerk-universitaetsmedizin.de/fhir/ValueSet/sars-cov-2-symptoms",
+      "linkId": "8.37",
       "text": "Schmerzen",
       "type": "group",
       "item": [ {
@@ -9070,7 +9080,7 @@
             "code": "symptoms.pain.presence"
           }
         } ],
-        "linkId": "9.37.1",
+        "linkId": "8.37.1",
         "text": "Vorhandensein?",
         "type": "choice",
         "answerOption": [ {
@@ -9101,11 +9111,11 @@
             "code": "symptoms.pain.severity"
           }
         } ],
-        "linkId": "9.37.2",
+        "linkId": "8.37.2",
         "text": "Schweregrad?",
         "type": "choice",
         "enableWhen": [ {
-          "question": "9.37.1",
+          "question": "8.37.1",
           "operator": "=",
           "answerCoding": {
             "system": "http://terminology.hl7.org/CodeSystem/v2-0136",
@@ -9147,9 +9157,11 @@
           "version": "1.0",
           "code": "symptoms.productiveCough"
         }
+      }, {
+        "url": "https://num-compass.science/fhir/StructureDefinition/GeccoTargetProfile",
+        "valueString": "https://www.netzwerk-universitaetsmedizin.de/fhir/ValueSet/sars-cov-2-symptoms"
       } ],
-      "linkId": "9.38",
-      "definition": "https://www.netzwerk-universitaetsmedizin.de/fhir/ValueSet/sars-cov-2-symptoms",
+      "linkId": "8.38",
       "text": "Produktiver Husten",
       "type": "group",
       "item": [ {
@@ -9161,7 +9173,7 @@
             "code": "symptoms.productiveCough.presence"
           }
         } ],
-        "linkId": "9.38.1",
+        "linkId": "8.38.1",
         "text": "Vorhandensein?",
         "type": "choice",
         "answerOption": [ {
@@ -9192,11 +9204,11 @@
             "code": "symptoms.productiveCough.severity"
           }
         } ],
-        "linkId": "9.38.2",
+        "linkId": "8.38.2",
         "text": "Schweregrad?",
         "type": "choice",
         "enableWhen": [ {
-          "question": "9.38.1",
+          "question": "8.38.1",
           "operator": "=",
           "answerCoding": {
             "system": "http://terminology.hl7.org/CodeSystem/v2-0136",
@@ -9238,9 +9250,11 @@
           "version": "1.0",
           "code": "symptoms.dryCough"
         }
+      }, {
+        "url": "https://num-compass.science/fhir/StructureDefinition/GeccoTargetProfile",
+        "valueString": "https://www.netzwerk-universitaetsmedizin.de/fhir/ValueSet/sars-cov-2-symptoms"
       } ],
-      "linkId": "9.39",
-      "definition": "https://www.netzwerk-universitaetsmedizin.de/fhir/ValueSet/sars-cov-2-symptoms",
+      "linkId": "8.39",
       "text": "Trockener Husten",
       "type": "group",
       "item": [ {
@@ -9252,7 +9266,7 @@
             "code": "symptoms.dryCough.presence"
           }
         } ],
-        "linkId": "9.39.1",
+        "linkId": "8.39.1",
         "text": "Vorhandensein?",
         "type": "choice",
         "answerOption": [ {
@@ -9283,11 +9297,11 @@
             "code": "symptoms.dryCough.severity"
           }
         } ],
-        "linkId": "9.39.2",
+        "linkId": "8.39.2",
         "text": "Schweregrad?",
         "type": "choice",
         "enableWhen": [ {
-          "question": "9.39.1",
+          "question": "8.39.1",
           "operator": "=",
           "answerCoding": {
             "system": "http://terminology.hl7.org/CodeSystem/v2-0136",
@@ -9329,9 +9343,11 @@
           "version": "1.0",
           "code": "symptoms.cloudedConsciousness"
         }
+      }, {
+        "url": "https://num-compass.science/fhir/StructureDefinition/GeccoTargetProfile",
+        "valueString": "https://www.netzwerk-universitaetsmedizin.de/fhir/ValueSet/sars-cov-2-symptoms"
       } ],
-      "linkId": "9.40",
-      "definition": "https://www.netzwerk-universitaetsmedizin.de/fhir/ValueSet/sars-cov-2-symptoms",
+      "linkId": "8.40",
       "text": "Bewusstseinstrübung",
       "type": "group",
       "item": [ {
@@ -9343,7 +9359,7 @@
             "code": "symptoms.cloudedConsciousness.presence"
           }
         } ],
-        "linkId": "9.40.1",
+        "linkId": "8.40.1",
         "text": "Vorhandensein?",
         "type": "choice",
         "answerOption": [ {
@@ -9374,11 +9390,11 @@
             "code": "symptoms.cloudedConsciousness.severity"
           }
         } ],
-        "linkId": "9.40.2",
+        "linkId": "8.40.2",
         "text": "Schweregrad?",
         "type": "choice",
         "enableWhen": [ {
-          "question": "9.40.1",
+          "question": "8.40.1",
           "operator": "=",
           "answerCoding": {
             "system": "http://terminology.hl7.org/CodeSystem/v2-0136",
@@ -9422,7 +9438,7 @@
         "code": "therapy"
       }
     } ],
-    "linkId": "10",
+    "linkId": "9",
     "text": "Therapie",
     "type": "group",
     "item": [ {
@@ -9433,9 +9449,11 @@
           "version": "1.0",
           "code": "therapy.dialysisOrHemofiltration"
         }
+      }, {
+        "url": "https://num-compass.science/fhir/StructureDefinition/GeccoTargetProfile",
+        "valueString": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/dialysis"
       } ],
-      "linkId": "10.1",
-      "definition": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/dialysis",
+      "linkId": "9.1",
       "text": "Dialyse / Hämofiltration",
       "type": "choice",
       "answerOption": [ {
@@ -9465,9 +9483,11 @@
           "version": "1.0",
           "code": "therapy.apheresis"
         }
+      }, {
+        "url": "https://num-compass.science/fhir/StructureDefinition/GeccoTargetProfile",
+        "valueString": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/apheresis"
       } ],
-      "linkId": "10.2",
-      "definition": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/apheresis",
+      "linkId": "9.2",
       "text": "Apherese",
       "type": "choice",
       "answerOption": [ {
@@ -9497,9 +9517,11 @@
           "version": "1.0",
           "code": "therapy.pronePosition"
         }
+      }, {
+        "url": "https://num-compass.science/fhir/StructureDefinition/GeccoTargetProfile",
+        "valueString": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/prone-position"
       } ],
-      "linkId": "10.3",
-      "definition": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/prone-position",
+      "linkId": "9.3",
       "text": "Bauchlage",
       "type": "choice",
       "answerOption": [ {
@@ -9529,9 +9551,11 @@
           "version": "1.0",
           "code": "therapy.ecmoTherapy"
         }
+      }, {
+        "url": "https://num-compass.science/fhir/StructureDefinition/GeccoTargetProfile",
+        "valueString": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/extracorporeal-membrane-oxygenation"
       } ],
-      "linkId": "10.4",
-      "definition": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/extracorporeal-membrane-oxygenation",
+      "linkId": "9.4",
       "text": "Extrakorporale Membranoxygenierung",
       "type": "choice",
       "answerOption": [ {
@@ -9561,9 +9585,11 @@
           "version": "1.0",
           "code": "therapy.isPatientInTheIntensiveCareUnit"
         }
+      }, {
+        "url": "https://num-compass.science/fhir/StructureDefinition/GeccoTargetProfile",
+        "valueString": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/patient-in-icu"
       } ],
-      "linkId": "10.5",
-      "definition": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/patient-in-icu",
+      "linkId": "9.5",
       "text": "Liegt der Patient auf der Intensivstation?",
       "type": "choice",
       "answerOption": [ {
@@ -9593,8 +9619,11 @@
           "version": "1.0",
           "code": "therapy.ventilationType"
         }
+      }, {
+        "url": "https://num-compass.science/fhir/StructureDefinition/GeccoTargetProfile",
+        "valueString": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/respiratory-therapies"
       } ],
-      "linkId": "10.6",
+      "linkId": "9.6",
       "text": "Bitte dokumentieren Sie die Beatmungstherapie",
       "type": "choice",
       "answerOption": [ {
@@ -9644,7 +9673,7 @@
         "code": "vitalSigns"
       }
     } ],
-    "linkId": "11",
+    "linkId": "10",
     "text": "Vitalparameter",
     "type": "group",
     "item": [ {
@@ -9656,7 +9685,7 @@
           "code": "vitalSigns.pacCO2"
         }
       } ],
-      "linkId": "11.1",
+      "linkId": "10.1",
       "text": "Kohlendioxidpartialdruck",
       "type": "decimal"
     }, {
@@ -9668,7 +9697,7 @@
           "code": "vitalSigns.paO2"
         }
       } ],
-      "linkId": "11.2",
+      "linkId": "10.2",
       "text": "Sauerstoffpartialdruck",
       "type": "decimal"
     }, {
@@ -9680,7 +9709,7 @@
           "code": "vitalSigns.FiO2"
         }
       } ],
-      "linkId": "11.3",
+      "linkId": "10.3",
       "text": "FiO2",
       "type": "decimal"
     }, {
@@ -9692,7 +9721,7 @@
           "code": "vitalSigns.pH"
         }
       } ],
-      "linkId": "11.4",
+      "linkId": "10.4",
       "text": "pH-Wert",
       "type": "decimal"
     }, {
@@ -9704,7 +9733,7 @@
           "code": "vitalSigns.sofaScore"
         }
       } ],
-      "linkId": "11.5",
+      "linkId": "10.5",
       "text": "Sepsis-related organ failure assessment score",
       "type": "integer"
     }, {
@@ -9716,7 +9745,7 @@
           "code": "vitalSigns.respiratoryRate"
         }
       } ],
-      "linkId": "11.6",
+      "linkId": "10.6",
       "text": "Atemfrequenz",
       "type": "integer"
     }, {
@@ -9728,7 +9757,7 @@
           "code": "vitalSigns.diastolicBloodPressure"
         }
       } ],
-      "linkId": "11.7",
+      "linkId": "10.7",
       "text": "Blutdruck diastolisch",
       "type": "integer"
     }, {
@@ -9740,7 +9769,7 @@
           "code": "vitalSigns.systolicBloodPressure"
         }
       } ],
-      "linkId": "11.8",
+      "linkId": "10.8",
       "text": "Blutdruck systolisch",
       "type": "integer"
     }, {
@@ -9752,7 +9781,7 @@
           "code": "vitalSigns.heartRate"
         }
       } ],
-      "linkId": "11.9",
+      "linkId": "10.9",
       "text": "Herzfrequenz",
       "type": "integer"
     }, {
@@ -9764,7 +9793,7 @@
           "code": "vitalSigns.bodyTemperature"
         }
       } ],
-      "linkId": "11.10",
+      "linkId": "10.10",
       "text": "Körpertemperatur",
       "type": "decimal"
     }, {
@@ -9776,7 +9805,7 @@
           "code": "vitalSigns.peripheralOxygenSaturation"
         }
       } ],
-      "linkId": "11.11",
+      "linkId": "10.11",
       "text": "Periphere Sauerstoffsättigung",
       "type": "decimal"
     } ]
