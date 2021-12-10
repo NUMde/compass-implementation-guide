@@ -20,7 +20,7 @@ For more information on how the IBM reference app handles the Questionnaire reso
 * The item.type "choice" requires the item.answerOption-list to be of type "Coding". To create lists of strings or integers the user can choose from, use type = "string" or type = "integer" and a answerOption-list with valueString or valueInteger. See the discussion here: https://chat.fhir.org/#narrow/stream/179255-questionnaire/topic/type.3Dchoice.20and.20answerOption.2EvalueInteger.3F
 
 ### Supported extensions
-* http://hl7.org/fhir/R4/extension-questionnaire-itemcontrol.html ("slider" only)
+* http://hl7.org/fhir/R4/extension-questionnaire-itemcontrol.html ("slider" and "dropdown" only)
 * https://num-compass.science/fhir/StructureDefinition/LowRangeLabel
 * https://num-compass.science/fhir/StructureDefinition/HighRangeLabel
 * http://hl7.org/fhir/StructureDefinition/questionnaire-sliderStepValue
