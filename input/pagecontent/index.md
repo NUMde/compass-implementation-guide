@@ -26,6 +26,10 @@ For more information on how the IBM reference app handles the Questionnaire reso
 * http://hl7.org/fhir/StructureDefinition/questionnaire-sliderStepValue
 * http://hl7.org/fhir/StructureDefinition/minValue
 * http://hl7.org/fhir/StructureDefinition/maxValue
+* https://num-compass.science/fhir/StructureDefinition/CompassInterversionId
+* https://num-compass.science/fhir/StructureDefinition/CompassGeccoItem
+* https://num-compass.science/fhir/StructureDefinition/CompassTargetProfile
+
 
 ### Questionnaire.item-IDs 
 
