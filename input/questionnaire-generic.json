@@ -523,7 +523,7 @@
                                             "required": true
                                         },
                                         {
-                                            "linkId": "4.1.1.2.2",
+                                            "linkId": "5.1.1.2.2",
                                             "text": "Frage 2 der Untergruppe 3",
                                             "type": "string",
                                             "required": true
